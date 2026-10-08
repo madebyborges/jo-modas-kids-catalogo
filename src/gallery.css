@@ -42,3 +42,10 @@
 
 .product-page .review-saved-message{display:flex;align-items:center;gap:12px;width:max-content;max-width:calc(100vw - 32px);padding:14px 16px;border-radius:12px;background:#effaf3;color:#087a3d;box-shadow:0 6px 24px #0c12301a;right:20px}.review-saved-message>svg{flex-shrink:0}.review-saved-message>div{display:grid;gap:4px;min-width:0}.review-saved-message strong{font-size:14px}.review-saved-message span{font-size:12px;line-height:1.4}.product-page .review-saved-message button{height:28px;min-height:28px;width:28px;padding:4px;border:0;background:transparent;color:#087a3d;box-shadow:none}
 @media(max-width:767px){.product-page .review-saved-message{right:0;margin-bottom:12px;max-width:calc(100vw - 32px)}}
+
+.review-success-toast.review-saved-message{position:fixed;z-index:1000;top:calc(16px + env(safe-area-inset-top));bottom:auto;left:50%;right:auto;transform:translateX(-50%);display:flex;align-items:center;gap:12px;width:max-content;max-width:calc(100vw - 32px);margin:0;padding:16px 18px 20px;border:1px solid #b8e8cd;border-radius:12px;background:#effaf3;color:#087a3d;box-shadow:0 8px 28px #0c123026;overflow:hidden;animation:review-toast-enter .3s ease-out both}
+.review-success-toast>svg{flex-shrink:0}.review-success-toast>div:not(.review-toast-countdown){display:grid;gap:4px;min-width:0}.review-success-toast strong{font-size:14px}.review-success-toast span{font-size:12px;line-height:1.4}.review-success-toast button{height:28px;min-height:28px;width:28px;padding:4px;border:0;background:transparent;color:#087a3d;box-shadow:none;flex-shrink:0}
+.review-success-toast .review-toast-countdown{position:absolute;bottom:0;left:0;right:0;height:4px;background:#d3eedf}.review-toast-countdown>span{display:block;height:100%;width:100%;background:#389f64;transform-origin:left;animation:review-toast-timeout 5s linear forwards}
+@keyframes review-toast-enter{from{opacity:0;transform:translate(-50%,calc(-100% - 24px))}to{opacity:1;transform:translate(-50%,0)}}
+@keyframes review-toast-timeout{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@media(prefers-reduced-motion:reduce){.review-success-toast.review-saved-message{animation:none}}

@@ -2,6 +2,21 @@ import { test, expect, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 const catalogData=JSON.parse(await readFile('public/data/products.json','utf8'));
 import type { Review } from '../../src/types/review';
+
+test('Confirmação no topo, entrada de cima, barra decrescente e fechamento em 5 segundos',async({page})=>{
+ await mockSupabase(page);await prepareReviews(page);
+ for(const width of [1440,390]){
+  await page.setViewportSize({width,height:900});await page.goto('/#/produto/25006.101');
+  await page.evaluate(()=>window.scrollTo(0,500));const before=await page.evaluate(()=>scrollY);
+  await page.locator('.product-review-actions').getByRole('button',{name:'Correto',exact:true}).click();await page.getByRole('button',{name:'Salvar conferência'}).click();
+  const toast=page.locator('.review-success-toast');await expect(toast).toBeVisible();await expect(toast).toContainText('Produto marcado como correto.');await expect(toast).toHaveCSS('position','fixed');await expect(toast).toHaveCSS('animation-name','review-toast-enter');
+  const bar=toast.locator('.review-toast-countdown>span');await expect(bar).toHaveCSS('animation-duration','5s');
+  await expect.poll(()=>bar.evaluate(el=>new DOMMatrix(getComputedStyle(el).transform).a)).toBeLessThan(.8);
+  const bounds=(await toast.boundingBox())!;expect(bounds.y).toBeLessThan(30);expect(bounds.x).toBeGreaterThanOrEqual(0);expect(bounds.x+bounds.width).toBeLessThanOrEqual(width);expect(await page.evaluate(()=>scrollY)).toBe(before);
+  await page.screenshot({path:'../feedback-topo-'+width+'.png'});await expect(toast).toHaveCount(0,{timeout:5500});
+  await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label','Correto');
+ }
+});
 const user={id:'00000000-0000-4000-8000-000000000001',aud:'authenticated',role:'authenticated',email:'revisora@example.test',app_metadata:{provider:'email'},user_metadata:{full_name:'Revisora de teste'},created_at:'2026-01-01T00:00:00Z'};
 async function mockSupabase(page:Page,sessionGate?:Promise<void>){
  let readGate:Promise<void>|undefined;let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
