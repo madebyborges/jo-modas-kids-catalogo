@@ -32,3 +32,5 @@
  .review-saved-message{right:16px;font-size:12px}
 }
 @media(prefers-reduced-motion:reduce){.image-viewer *{scroll-behavior:auto}}
+
+.current-review{margin-top:20px}.current-review .section-title{flex-wrap:wrap}.current-review a{font-size:14px}.review-overview-row{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #e9edf4;color:inherit;text-decoration:none}.review-overview-row:last-child{border-bottom:0}.review-overview-row>div{min-width:0}.review-overview-row p{margin:6px 0;overflow-wrap:anywhere}.review-overview-row>.badge{flex-shrink:0}

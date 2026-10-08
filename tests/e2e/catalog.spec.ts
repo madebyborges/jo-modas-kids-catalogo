@@ -4,7 +4,7 @@ const catalogData=JSON.parse(await readFile('public/data/products.json','utf8'))
 import type { Review } from '../../src/types/review';
 const user={id:'00000000-0000-4000-8000-000000000001',aud:'authenticated',role:'authenticated',email:'revisora@example.test',app_metadata:{provider:'email'},user_metadata:{full_name:'Revisora de teste'},created_at:'2026-01-01T00:00:00Z'};
 async function mockSupabase(page:Page,sessionGate?:Promise<void>){
- let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
+ let readGate:Promise<void>|undefined;let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
  await page.route('http://127.0.0.1:9999/**',async route=>{
   const req=route.request();const url=new URL(req.url());const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,OPTIONS'};
   if(req.method()==='OPTIONS'){await route.fulfill({status:204,headers});return;}
@@ -15,11 +15,11 @@ async function mockSupabase(page:Page,sessionGate?:Promise<void>){
   else if(url.pathname.endsWith('/user'))body=visitor;
   else if(url.pathname.endsWith('/product_reviews')){
    if(req.method()==='POST'){const r=req.postDataJSON() as Review;r.updated_at=new Date().toISOString();rows=[...rows.filter(x=>x.product_reference!==r.product_reference),r];body=r;}
-   else body=rows;
+   else {body=rows.map(r=>({...r}));const gate=readGate;readGate=undefined;await gate;}
   }
   await route.fulfill({status:200,json:body,headers});
  });
- return {signupCount:()=>signups,outage:()=>{fail=true;},getRows:()=>rows,setComment:(comment:string)=>{rows=rows.map(r=>({...r,comment}));}};
+ return {delayNextRead:(gate:Promise<void>)=>{readGate=gate;},signupCount:()=>signups,outage:()=>{fail=true;},getRows:()=>rows,setStatus:(status:Review["status"])=>{rows=rows.map(r=>({...r,status}));},setComment:(comment:string)=>{rows=rows.map(r=>({...r,comment}));}};
 }
 async function prepareReviews(page:Page){await page.goto('/#/revisao');await expect(page.getByRole('heading',{name:'Dashboard de conferência'})).toBeVisible();await expect(page.getByText('Progresso da conferência',{exact:true})).toBeVisible();}
 
@@ -115,7 +115,7 @@ test('Sessão automática, aprovação, comentário obrigatório, persistência,
  await expect(page.getByRole('link',{name:'Entrar',exact:true})).toHaveCount(0);await expect(page.getByRole('button',{name:'Sair',exact:true})).toHaveCount(0);expect(backend.signupCount()).toBe(1);
 });
 test('Indisponibilidade do Supabase mantém catálogo e cancela exportação',async({page})=>{const backend=await mockSupabase(page);await prepareReviews(page);backend.outage();await page.getByRole('button',{name:'Atualizar revisões'}).click();await expect(page.getByText('O catálogo está disponível, mas as revisões estão temporariamente indisponíveis.')).toBeVisible();await expect(page.getByRole('button',{name:'Exportar JSON',exact:true})).toBeDisabled();await page.goto('/');await expect(page.locator('.product-card')).toHaveCount(46);});
-test('Mobile: uma cor, sem cor, tamanhos simples e duplos, sem overflow',async({page})=>{await mockSupabase(page);await page.setViewportSize({width:390,height:844});await page.goto('/');await expect(page.locator('.product-card')).toHaveCount(46);for(const reference of ['25005.203','2750.101','2749.300','2656.100']){await page.goto(`/#/produto/${reference}`);await expect(page.locator('.variant').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();}await page.goto('/#/produto/25005.203');await expect(page.locator('.color-options')).toHaveCount(0);await expect(page.getByText('GTIN',{exact:true})).toBeVisible();});
+test('Mobile: uma cor, sem cor, tamanhos simples e duplos, sem overflow',async({page})=>{await mockSupabase(page);await page.setViewportSize({width:390,height:844});await page.goto('/');await expect(page.locator('.product-card')).toHaveCount(46);for(const reference of ['25005.203','2750.101','2749.300','2656.100']){await page.goto(`/#/produto/${reference}`);await expect(page.locator('.variant').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBeTruthy();}await page.goto('/#/produto/25005.203');await expect(page.locator('.color-options')).toHaveCount(0);await expect(page.getByText('GTIN',{exact:true})).toHaveCount(0);});
 test('Galeria: URL inválida e falha de imagem usam fallback',async({page})=>{await mockSupabase(page);const data=JSON.parse(await readFile('public/data/products.json','utf8'));data.products[0].imageUrls=['https://invalid.example.test/not-found.jpg','javascript:invalid'];await page.route('**/data/products.json',r=>r.fulfill({json:data}));await page.route('https://invalid.example.test/**',r=>r.fulfill({status:404}));await page.goto(`/#/produto/${data.products[0].reference}`);await expect(page.locator('.gallery-main .image-fallback')).toBeVisible();await page.getByRole('button',{name:'Imagem 2',exact:true}).click();await expect(page.locator('.gallery-main .image-fallback')).toBeVisible();});
 
 test('Mobile: chips, menu, filtros, tamanho e revisão com comentário (API simulada)',async({page})=>{
@@ -132,7 +132,7 @@ test('Mobile: chips, menu, filtros, tamanho e revisão com comentário (API simu
 test('Desktop: navegação lateral, linhas responsivas e conferência rápida (API simulada)',async({page})=>{
  const backend=await mockSupabase(page);await prepareReviews(page);await page.goto('/');
  for(const width of [800,1024,1440]){await page.setViewportSize({width,height:1000});await expect(page.locator('.desktop-sidebar')).toBeVisible();await expect(page.locator('.product-card')).toHaveCount(46);const rows=await page.locator('.product-card').evaluateAll(cards=>cards.slice(0,2).map(c=>({x:c.getBoundingClientRect().x,y:c.getBoundingClientRect().y})));expect(rows[0].x).toBe(rows[1].x);expect(rows[1].y).toBeGreaterThan(rows[0].y);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();}
- await page.getByRole('button',{name:'Molekinha',exact:true}).click();await expect(page.locator('.product-card')).toHaveCount(29);await page.getByRole('textbox',{name:'Buscar produtos'}).fill('25006.101');await page.locator('.product-card').click();await expect(page.locator('.desktop-sidebar').getByRole('link',{name:'Produtos',exact:true})).toHaveClass('active');await expect(page.locator('.desktop-registration-summary')).toContainText('17 unidades');
+ await page.getByRole('button',{name:'Molekinha',exact:true}).click();await expect(page.locator('.product-card')).toHaveCount(29);await page.getByRole('textbox',{name:'Buscar produtos'}).fill('25006.101');await page.locator('.product-card').click();await expect(page.locator('.desktop-sidebar').getByRole('link',{name:'Produtos',exact:true})).toHaveClass('active');await expect(page.locator('.inventory-summary')).toContainText('17 unidades');
  await page.locator('.product-review-actions').getByRole('button',{name:'Correto',exact:true}).click();await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.getByText('Revisão salva',{exact:true})).toBeVisible();expect(backend.getRows()[0].status).toBe('approved');await page.getByRole('link',{name:'Voltar ao catálogo'}).click();await page.getByRole('button',{name:'Revisados',exact:true}).click();await expect(page.locator('.product-card')).toHaveCount(1);await expect(page.locator('.product-card')).toContainText('25006.101');
 });
 
@@ -187,7 +187,7 @@ test('Fotos incompatíveis: Bege não mostra Rosa, Capivara não mostra gatinho,
   await page.setViewportSize({width,height:900});
   for(const ref of ['2749.101','2118.582']){
    await page.goto('/');const card=page.locator('.product-card').filter({hasText:`Ref. ${ref}`});await expect(card.locator('.card-image img')).toHaveCount(0);await expect(card.locator('.image-fallback')).toBeVisible();await card.click();
-   await expect(page.locator('.product-hero img')).toHaveCount(0);await expect(page.locator('.product-hero .image-fallback')).toBeVisible();await page.getByText('Imagens originais sem associação de cor',{exact:true}).click();await expect(page.getByRole('link',{name:/Conferir link original 1/})).toBeVisible();await expect(page.locator('details.panel img')).toHaveCount(0);
+   await expect(page.locator('.product-hero img')).toHaveCount(0);await expect(page.locator('.product-hero .image-fallback')).toBeVisible();await expect(page.getByText('Imagens originais sem associação de cor',{exact:true})).toHaveCount(0);await expect(page.locator('details.panel img')).toHaveCount(0);
   }
   await page.goto('/#/produto/2609.233');await expect(page.locator('.product-hero .gallery-main img')).toHaveAttribute('src',/33300/);await expect(page.locator('.product-hero .gallery-main img')).toHaveAttribute('alt',/Azul Marinho/);
   await page.goto('/#/produto/2745.103');await expect(page.locator('.product-hero .gallery-main img')).toHaveAttribute('src',/capivara-branco/);await expect(page.locator('.product-hero .gallery-main img')).toHaveAttribute('alt',/Branco Capivara/);
@@ -197,3 +197,35 @@ test('Fotos incompatíveis: Bege não mostra Rosa, Capivara não mostra gatinho,
 });
 
 
+
+test('Status atualiza ao reabrir, trocar e salvar; detalhes técnicos ficam indisponíveis',async({page})=>{
+ const backend=await mockSupabase(page);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await prepareReviews(page);
+ for(const width of [1440,390]){
+  await page.setViewportSize({width,height:900});await page.goto('/#/produto/25006.101');
+  await expect(page.locator('.product-page .data-list')).toHaveCount(0);await expect(page.locator('.product-page details')).toHaveCount(0);
+  await expect(page.getByRole('heading',{name:'Dados fiscais'})).toHaveCount(0);await expect(page.getByRole('heading',{name:'Descrição',exact:true})).toHaveCount(0);
+  for(const [label,status] of [['Correto','approved'],['Precisa corrigir','needs_correction'],['Não revisado','pending']] as const){
+   await page.locator('.product-review-actions').getByRole('button',{name:label,exact:true}).click();
+   if(status==='needs_correction')await page.getByLabel(/O que precisa corrigir/).fill('Observação da cliente');
+   await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);
+   await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label',label);expect(backend.getRows()[0].status).toBe(status);
+   await page.goto('/');await page.locator('.product-card').filter({hasText:'Ref. 25006.101'}).click();await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label',label);
+  }
+  backend.setStatus('needs_correction');backend.setComment('Atualizado em outro navegador');
+  await page.goto('/');await page.locator('.product-card').filter({hasText:'Ref. 25006.101'}).click();await expect(page.locator('.current-review')).toContainText('Atualizado em outro navegador');
+  await page.getByRole('link',{name:'Ver status e observações de todos os produtos'}).click();await expect(page.locator('.review-overview-row').filter({hasText:'Ref. 25006.101'})).toContainText('Atualizado em outro navegador');
+  await page.screenshot({path:'../status-observacoes-'+width+'.png'});
+  await page.goto('/#/problemas');await expect(page).toHaveURL(/#\/$/);await expect(page.getByText('Configuração fiscal original')).toHaveCount(0);
+ }
+ expect(errors).toEqual([]);
+});
+
+test('Consulta antiga não sobrescreve status salvo nem reinicia sessão ao salvar',async({page})=>{
+ const backend=await mockSupabase(page);await prepareReviews(page);await page.goto('/#/produto/25006.101');await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label','Não revisado');
+ await page.locator('.product-review-actions').getByRole('button',{name:'Correto',exact:true}).click();
+ let release!:()=>void;const gate=new Promise<void>(resolve=>release=resolve);backend.delayNextRead(gate);
+ await page.evaluate(()=>window.dispatchEvent(new Event('focus')));
+ await expect(page.getByRole('button',{name:'Salvar conferência'})).toBeDisabled();
+ release();await expect(page.getByRole('button',{name:'Salvar conferência'})).toBeEnabled();
+ await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label','Correto');expect(backend.signupCount()).toBe(1);
+});

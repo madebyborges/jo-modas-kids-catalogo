@@ -144,3 +144,11 @@ Use as setas da galeria ou deslize a foto para trocar de imagem. Toque ou clique
 
 Os três botões de conferência abrem um modal no desktop e no mobile, preservando a posição da página. Ao salvar, o modal fecha e o status é atualizado; solicitar correção continua exigindo uma observação.
 
+# Interface de conferência simplificada
+
+Os detalhes técnicos, descrições, dados fiscais e campos brutos da planilha estão temporariamente fora da interface, sem controles para abri-los. A rota antiga de problemas redireciona ao catálogo. Os dados originais continuam preservados na fonte e no JSON; esta alteração é de apresentação, não uma proteção de acesso ao JSON público.
+
+Em **Conferência**, a seção **Status e observações** lista cada produto com seu status atual, nome do revisor, data e comentário. O próprio produto também apresenta a conferência atual e um link para essa lista. CSV e JSON exportam a conferência.
+
+Abrir um produto ou o dashboard consulta novamente o Supabase. Salvar atualiza imediatamente o estado compartilhado; respostas de consultas anteriores ao salvamento são descartadas. Os registros representam a última conferência de cada produto, não um histórico de todas as alterações.
+
