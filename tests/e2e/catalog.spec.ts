@@ -23,6 +23,20 @@ async function mockSupabase(page:Page,sessionGate?:Promise<void>){
 }
 async function prepareReviews(page:Page){await page.goto('/#/revisao');await expect(page.getByRole('heading',{name:'Dashboard de conferência'})).toBeVisible();await expect(page.getByText('Progresso da conferência',{exact:true})).toBeVisible();}
 
+test('Abrir e reabrir produto começa no topo no desktop e mobile, modal preserva rolagem',async({page})=>{
+ await mockSupabase(page);await prepareReviews(page);
+ for(const width of [1440,390]){
+  await page.setViewportSize({width,height:900});await page.goto('/');
+  const card=page.locator('.product-card').filter({hasText:'Ref. 25006.101'});
+  await card.scrollIntoViewIfNeeded();expect(await page.evaluate(()=>scrollY)).toBeGreaterThan(500);await card.click();
+  await expect(page).toHaveURL(/#\/produto\/25006\.101$/);await expect.poll(()=>page.evaluate(()=>scrollY)).toBe(0);await expect(page.locator('.gallery-main')).toBeInViewport();
+  await page.evaluate(()=>window.scrollTo(0,600));const before=await page.evaluate(()=>scrollY);
+  await page.locator('.product-review-actions').getByRole('button',{name:'Correto',exact:true}).click();await expect(page.getByRole('dialog',{name:'Conferência do produto'})).toBeVisible();expect(await page.evaluate(()=>scrollY)).toBe(before);await page.getByRole('button',{name:'Fechar conferência'}).click();expect(await page.evaluate(()=>scrollY)).toBe(before);
+  await page.goBack();await expect(card).toBeVisible();await card.scrollIntoViewIfNeeded();await card.click();await expect.poll(()=>page.evaluate(()=>scrollY)).toBe(0);
+  await page.evaluate(()=>{window.scrollTo(0,600);location.hash='/produto/2305.2081';});await expect(page).toHaveURL(/#\/produto\/2305\.2081$/);await expect.poll(()=>page.evaluate(()=>scrollY)).toBe(0);
+ }
+});
+
 test('Galeria desktop e mobile: setas, expansão, zoom, arraste, pinça e swipe',async({page})=>{
  await mockSupabase(page);const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
  const product=catalogData.products.find((p:{reference:string})=>p.reference==='2305.2081');const photos=product.colors[0].imageUrls;
