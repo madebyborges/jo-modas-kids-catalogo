@@ -1,0 +1,506 @@
+{
+  "reviewedAt": "2026-10-08",
+  "originalParentImagesReviewed": 44,
+  "associatedGalleryImagesReviewed": 69,
+  "entries": [
+    {
+      "reference": "25005.203",
+      "field": "URL imagem externa 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707068165/7510715521219/0.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "general_without_color",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "25005.203",
+      "field": "URL imagem externa 2",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707068165/7510715521219/5.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "general_without_color",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "25005.203",
+      "field": "URL imagem externa 3",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707068165/7510715521219/6.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "general_without_color",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "25006.101",
+      "field": "URL imagem externa 1",
+      "url": "https://static.dafiti.com.br/p/Molekinha-Tenis-Infantil-Molekinha-Metalizado-Prata-6906-29697341-1-zoom.jpg",
+      "catalogColors": [
+        "Dourado",
+        "Prata"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2580.110",
+      "field": "URL imagem externa 1",
+      "url": "https://cloviscalcados.vteximg.com.br/arquivos/ids/1388585/Tenis-Infantil-Feminino-Molekinha-2580110-0442813_040-01.jpg?v=638978789938870000",
+      "catalogColors": [
+        "Preto",
+        "Branco/Prata/Pink"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2565.113",
+      "field": "URL imagem externa 1",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2565-113-9569-78276.jpg",
+      "catalogColors": [
+        "Preto",
+        "Rosa"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2565.113",
+      "field": "URL imagem externa 2",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg",
+      "catalogColors": [
+        "Preto",
+        "Rosa"
+      ],
+      "status": "associated",
+      "observedColor": "Rosa",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2565.113",
+      "field": "URL imagem externa 3",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706663126/7510714403841/0.jpeg",
+      "catalogColors": [
+        "Preto",
+        "Rosa"
+      ],
+      "status": "incompatible",
+      "observedColor": "Branco",
+      "reason": "Foto geral Branco não corresponde às cores Preto e Rosa cadastradas."
+    },
+    {
+      "reference": "2565.113",
+      "field": "URL imagem externa 4",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/1.jpeg",
+      "catalogColors": [
+        "Preto",
+        "Rosa"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2861.117",
+      "field": "URL imagem externa 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2859/7010705787084/7510712515227/1.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "general_without_color",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2357.103",
+      "field": "URL imagem externa 1",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2357-103-9569-52531.jpg",
+      "catalogColors": [
+        "Off",
+        "Branca"
+      ],
+      "status": "incompatible",
+      "observedColor": "Marrom/Bege",
+      "reason": "Foto geral Marrom/Bege não corresponde às cores Off e Branca cadastradas."
+    },
+    {
+      "reference": "2357.103",
+      "field": "URL imagem externa 2",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4498/7010704086242/7510708374239/1.jpg",
+      "catalogColors": [
+        "Off",
+        "Branca"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2357.103",
+      "field": "URL imagem externa 3",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5368/7010704831106/7510710157552/4.jpeg",
+      "catalogColors": [
+        "Off",
+        "Branca"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2861.216",
+      "field": "URL imagem externa 1",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg",
+      "catalogColors": [
+        "Preto c/ Marrom"
+      ],
+      "status": "associated",
+      "observedColor": "Preto c/ Marrom",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2417.100",
+      "field": "URL imagem externa 1",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menino_molekinho_2417100_preto_1_20251024173519_3563dbdcef95.jpg",
+      "catalogColors": [
+        "Azul Marinho",
+        "Preto"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2417.100",
+      "field": "URL imagem externa 2",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/701605609/754856466/0.jpeg",
+      "catalogColors": [
+        "Azul Marinho",
+        "Preto"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2417.100",
+      "field": "URL imagem externa 3",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg",
+      "catalogColors": [
+        "Azul Marinho",
+        "Preto"
+      ],
+      "status": "associated",
+      "observedColor": "Preto",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2417.100",
+      "field": "URL imagem externa 4",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/701605609/754856466/1.jpeg",
+      "catalogColors": [
+        "Azul Marinho",
+        "Preto"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2417.100",
+      "field": "URL imagem externa 5",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/701605609/754856466/2.jpeg",
+      "catalogColors": [
+        "Azul Marinho",
+        "Preto"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2723.224",
+      "field": "URL imagem 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/0.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2723.224",
+      "field": "URL imagem 2",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/1.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2723.224",
+      "field": "URL imagem 3",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/2.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2723.224",
+      "field": "URL imagem 4",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/3.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2723.224",
+      "field": "URL imagem 5",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/4.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2831.113",
+      "field": "URL imagem externa 1",
+      "url": "https://cloviscalcados.vteximg.com.br/arquivos/ids/1111125/Tenis-Infantil-Masculino-Molekinho-283113-A0441113_053-01.jpg?v=638550076417400000",
+      "catalogColors": [
+        "Azul",
+        "Preto"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2342.122",
+      "field": "URL imagem 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707043547/7510715416321/0.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2342.115",
+      "field": "URL imagem externa 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6857/7010706174134/7510713340669/3.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "general_without_color",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2305.2082",
+      "field": "URL imagem 1",
+      "url": "https://static.zattini.com.br/produtos/sandalia-f-i-molekinha-ref:23052082/32/Q7L-31I5-032/Q7L-31I5-032_zoom1.jpg?ts=1789141632",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2357.120",
+      "field": "URL imagem 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707019274/7510715309186/0.jpeg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2620.116",
+      "field": "URL imagem externa 1",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2620-116-29367-73049.jpg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "general_without_color",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2620.116",
+      "field": "URL imagem externa 2",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2620-116-29367-15745.jpg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "general_without_color",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2636.103",
+      "field": "URL imagem 1",
+      "url": "https://images.tcdn.com.br/img/img_prod/972774/sandalia_infantil_masculina_molekinho_2636103_16429_116521_1_20250902154536_b91a709b7dc1.jpg",
+      "catalogColors": [
+        ""
+      ],
+      "status": "associated",
+      "observedColor": "",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2609.131",
+      "field": "URL imagem externa 1",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-131-30608-40589.jpg",
+      "catalogColors": [
+        "Azul Marinho/Cinza"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2609.233",
+      "field": "URL imagem externa 1",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-15745.jpg",
+      "catalogColors": [
+        "Azul Marinho"
+      ],
+      "status": "incompatible",
+      "observedColor": "Preto",
+      "reason": "Cadastro Azul Marinho, mas primeira foto Preto. Usar somente a segunda foto Azul Marinho."
+    },
+    {
+      "reference": "2609.233",
+      "field": "URL imagem externa 2",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg",
+      "catalogColors": [
+        "Azul Marinho"
+      ],
+      "status": "associated",
+      "observedColor": "Azul Marinho",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2749.101",
+      "field": "URL imagem externa 1",
+      "url": "https://static.dafiti.com.br/p/Molekinha-Babuche-Molekinha-Infantil-Estrelas-Rosa-2424-1686886-1-zoom.jpg",
+      "catalogColors": [
+        "Bege"
+      ],
+      "status": "incompatible",
+      "observedColor": "Rosa",
+      "reason": "Cadastro Bege, mas foto Rosa."
+    },
+    {
+      "reference": "2728.103",
+      "field": "URL imagem externa 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg",
+      "catalogColors": [
+        "Rosa"
+      ],
+      "status": "associated",
+      "observedColor": "Rosa",
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2728.103",
+      "field": "URL imagem externa 2",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6182/7010705948421/7510712851013/4.jpeg",
+      "catalogColors": [
+        "Rosa"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2728.103",
+      "field": "URL imagem externa 3",
+      "url": "https://dcdn.mitiendanube.com/stores/004/709/418/products/design-sem-nome-15-51b69838113c391c3517268449562365-1024-1024.png",
+      "catalogColors": [
+        "Rosa"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2728.103",
+      "field": "URL imagem externa 4",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3310/7010704069900/7510708331339/1.jpeg",
+      "catalogColors": [
+        "Rosa"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2745.103",
+      "field": "URL imagem externa 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706676353/7510714413441/0.jpeg",
+      "catalogColors": [
+        "Branco Capivara"
+      ],
+      "status": "incompatible",
+      "observedColor": "Branco/Rosa com gatinho",
+      "reason": "Cadastro Branco Capivara, mas foto apresenta gatinho e detalhes Rosa."
+    },
+    {
+      "reference": "2118.582",
+      "field": "URL imagem externa 1",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3171/7010705688026/7510712249157/0.jpeg",
+      "catalogColors": [
+        "Branco Off Glitter"
+      ],
+      "status": "incompatible",
+      "observedColor": "Preto",
+      "reason": "Cadastro Branco Off Glitter, mas foto Preto."
+    },
+    {
+      "reference": "2118.582",
+      "field": "URL imagem externa 2",
+      "url": "https://cdn.awsli.com.br/2500x2500/2498/2498396/produto/351441494/_mg_6867-794w2zhmj2.jpg",
+      "catalogColors": [
+        "Branco Off Glitter"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    },
+    {
+      "reference": "2631.110",
+      "field": "URL imagem externa 1",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2631-110-17063-95054.jpg",
+      "catalogColors": [
+        "Areia"
+      ],
+      "status": "unassigned",
+      "observedColor": null,
+      "reason": "Imagem mantida somente como link de auditoria, quando não associada a uma cor."
+    }
+  ]
+}

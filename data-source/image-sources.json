@@ -1,0 +1,650 @@
+{
+  "originalWorkbook": "olist_cadastro_mestre_com_links_imagens.xlsx",
+  "enrichedWorkbook": "olist_cadastro_mestre_imagens_por_cor.xlsx",
+  "entries": [
+    {
+      "reference": "25006.101",
+      "color": "Prata",
+      "sourceColor": "Prata",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/tenis-casual-infantil-feminino-molekinha-prata/-/A-7010707065791-br.lr?sku=7510715511289",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2580.110",
+      "color": "Preto",
+      "sourceColor": "Preto",
+      "sourceUrl": "https://www.lojasalvorada.com.br/tenis-infantil-menina-molekinha-2580-110-preto",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2565.113",
+      "color": "Preto",
+      "sourceColor": "Preto",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/tenis-infantil-molekinha-feminino-2565113/-/A-7010706786320-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+      ],
+      "method": "Imagem específica da opção Preto, não a imagem principal Branco",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2565.113",
+      "color": "Rosa",
+      "sourceColor": "Rosa",
+      "sourceUrl": "https://www.lojasrenner.com.br/ashua/p/tenis-molekinha-infantil-plataforma-conforto-estilo-2565113/-/A-7010705664263-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2838.232",
+      "color": "Preto",
+      "sourceColor": "NEGR",
+      "sourceUrl": "https://www.falabella.com.pe/falabella-pe/product/21437604/zapatilla-mlko-2838-232-30-negr/21437607",
+      "imageUrls": [
+        "https://media.falabella.com/falabellaPE/21437606_1/public"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2838.232",
+      "color": "Azul Marinho",
+      "sourceColor": "MARIN",
+      "sourceUrl": "https://www.falabella.com.pe/falabella-pe/product/21437615/zapatilla-mlko-2838-232-33-marin/21437620",
+      "imageUrls": [
+        "https://media.falabella.com/falabellaPE/21437620_1/public"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2357.103",
+      "color": "Off",
+      "sourceColor": "Off White",
+      "sourceUrl": "https://www.lojasalvorada.com.br/chinelo-infantil-menina-molekinha-2357-103-off-white",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2357.103",
+      "color": "Branca",
+      "sourceColor": "Branco",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/tamanco-molekinha-infantil-casual-2357-103-branco-branco/-/A-7010704869090-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/3.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/4.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2417.100",
+      "color": "Azul Marinho",
+      "sourceColor": "MARINHO",
+      "sourceUrl": "https://www.cacci.com.br/chin-slide-molekinho-2417-100",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/1043290/chinelo_infantil_menino_slide_molekinho_2417_100_12835_variacao_128147_1_0dc488514d68608ec2ede2ba2f9f97b4.jpg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2417.100",
+      "color": "Preto",
+      "sourceColor": "Preto",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/chinelo-infantil-menino-molekinho-2417100-preto/-/A-7010706613574-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/3.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2750.103",
+      "color": "Prata",
+      "sourceColor": "Prata e Branco Off",
+      "sourceUrl": "https://www.oscarcalcados.com.br/tenis-molekinha-infantil-prata-1000200616/p",
+      "imageUrls": [
+        "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000",
+        "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2417.205",
+      "color": "Preto",
+      "sourceColor": "Preto",
+      "sourceUrl": "https://www.lojasrenner.com.br/ashua/p/chinelo-slide-infantil-menino-molekinho-2417205-preto/-/A-7010707016274-br.lr?sku=7510715296379",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707016274/7510715296379/0.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2723.224",
+      "color": "",
+      "sourceColor": "Branco (cor do catálogo não informada)",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/tenis-casual-infantil-molekinha-feminino-2723224/-/A-7010707043984-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/3.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/4.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2831.113",
+      "color": "Preto",
+      "sourceColor": "Preto",
+      "sourceUrl": "https://www.lojasalvorada.com.br/tenis-infantil-menino-molekinho-2831-113-preto",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_1_20260420110225_1371fe7ab221.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_2_20260420110225_cad80f382100.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_3_20260420110225_c4e4ad2c0d95.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_4_20260420110225_3af532f8a87f.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_5_20260420110225_41cf8b73a1d9.jpg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2342.122",
+      "color": "",
+      "sourceColor": "Offwhite (cor do catálogo não informada)",
+      "sourceUrl": "https://www.lojasrenner.com.br/ashua/p/sandalia-rasteira-infantil-menina-molekinha-2342122-offwhite/-/A-7010707043547-br.lr?sku=7510715416321",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707043547/7510715416321/0.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2305.2082",
+      "color": "",
+      "sourceColor": "Cor do catálogo não informada",
+      "sourceUrl": "https://www.zattini.com.br/p/sandalia-f-i-molekinha-ref23052082-Q7L-31I5-032",
+      "imageUrls": [
+        "https://static.zattini.com.br/produtos/sandalia-f-i-molekinha-ref:23052082/32/Q7L-31I5-032/Q7L-31I5-032_zoom1.jpg?ts=1789141632"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2357.120",
+      "color": "",
+      "sourceColor": "Marrom (cor do catálogo não informada)",
+      "sourceUrl": "https://www.lojasrenner.com.br/ashua/p/tamanco-papete-infantil-menina-molekinha-2357120-marrom/-/A-7010707019274-br.lr?sku=7510715309186",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707019274/7510715309186/0.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2752.200",
+      "color": "Rosa",
+      "sourceColor": "Rosa Charm",
+      "sourceUrl": "https://www.calcados24h.com.br/produtos/sandalia-bebe-molekinha-agilidade-na-hora-de-calcar-e-ajuste-na-medida-2752-200-1l206/",
+      "sourceSku": "MK2752200SAIFROSCHR25/26",
+      "imageUrls": [
+        "https://acdn-us.mitiendanube.com/stores/001/682/645/products/rosa-charm-1-e069cd885c9c7f47c517910540066413-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2752.200",
+      "color": "Branco Off",
+      "sourceColor": "Branco Off",
+      "sourceUrl": "https://www.calcados24h.com.br/produtos/sandalia-bebe-molekinha-agilidade-na-hora-de-calcar-e-ajuste-na-medida-2752-200-1l206/",
+      "sourceSku": "MK2752200SAIFBROF25/26",
+      "imageUrls": [
+        "https://acdn-us.mitiendanube.com/stores/001/682/645/products/branco-off-1-34133c5ce00b51d2cd17910540122353-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2636.103",
+      "color": "",
+      "sourceColor": "Cor do catálogo não informada",
+      "sourceUrl": "https://www.pollocalcados.com.br/sandalia-infantil-masculina-molekinho-2636-103",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/972774/sandalia_infantil_masculina_molekinho_2636103_16429_116521_1_20250902154536_b91a709b7dc1.jpg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2656.100",
+      "color": "Azul Marinho",
+      "sourceColor": "Marinho",
+      "sourceUrl": "https://www.calezza.com.br/produtos/sandalia-infantil-molekinho-masculina-full-eva-confortavel-antiderrapante-calce-facil-uurea/",
+      "sourceSku": "2656100-MARINHO-25-26",
+      "imageUrls": [
+        "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/3-0a6827e4c9496f26b617894185686999-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2656.100",
+      "color": "Preta",
+      "sourceColor": "Preto",
+      "sourceUrl": "https://www.calezza.com.br/produtos/sandalia-infantil-molekinho-masculina-full-eva-confortavel-antiderrapante-calce-facil-uurea/",
+      "sourceSku": "2656100-PRETO-25-26",
+      "imageUrls": [
+        "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/4-6d729b2a1ce3f591eb17894185640851-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2609.131",
+      "color": "Azul Marinho/Cinza",
+      "sourceColor": "Azul e Cinza / Marinho",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/tenis-running-infantil-slip-on-molekinho-azul-e-cinza/-/A-7010705977170-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/3.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/4.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2749.102",
+      "color": "Rosa",
+      "sourceColor": "Rosa",
+      "sourceUrl": "https://www.calezza.com.br/produtos/sandalia-clog-infantil-molekinha-babuche-rosa-feminina-menina-com-pin-confortavel-casual-escolar-eva-o57nq/",
+      "sourceSku": "2749102-ROSA-25-26",
+      "imageUrls": [
+        "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2749102-dc2b6025d8b88139e417889712123933-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2728.103",
+      "color": "Rosa",
+      "sourceColor": "Rosa",
+      "sourceUrl": "https://www.lojasrenner.com.br/ashua/p/tenis-infantil-menina-molekinha-velcro-calce-facil-2728103/-/A-7010705709944-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2723.222",
+      "color": "Rosa",
+      "sourceColor": "Rosa",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/tenis-molekinha-2723222-auto-colante-menina-infantil/-/A-7010706666014-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706666014/7510714404149/0.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2723.222",
+      "color": "Preto",
+      "sourceColor": "PRETO/PRETO",
+      "sourceUrl": "https://www.madamechinelo.com.br/produtos/molekinha-tenis-conforto-daily-pop-2723-222/?variant=1491666022",
+      "sourceSku": "2723.222-8",
+      "imageUrls": [
+        "https://acdn-us.mitiendanube.com/stores/005/795/523/products/1-06a60e5b047e11cd4b17842345094852-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2376.100",
+      "color": "Rosa",
+      "sourceColor": "Rosa",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/chinelo-molekinha-2376100-slide-menina-infantil/-/A-7010706959596-br.lr?sku=7510715093319",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706959596/7510715093319/0.jpeg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2424.116",
+      "color": "Multi Preto",
+      "sourceColor": "Preto (estampa multicolorida)",
+      "sourceUrl": "https://www.coreucalcados.com.br/produtos/chinelo-molekinho-preto-2424-116/",
+      "imageUrls": [
+        "https://acdn-us.mitiendanube.com/stores/004/709/418/products/0d4446a8-a581-42dc-bc40-d0ade50196b3-de180987f853b41f2317549474941848-480-0.webp"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2631.110",
+      "color": "Areia",
+      "sourceColor": "Areia",
+      "sourceUrl": "https://www.zattini.com.br/p/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato-AMM-5436-072",
+      "imageUrls": [
+        "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom1.jpg?ts=1780415936",
+        "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom2.jpg?ts=1780415936",
+        "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom3.jpg?ts=1780415936",
+        "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom4.jpg?ts=1780415936",
+        "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom5.jpg?ts=1780415936"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2121.101",
+      "color": "Branco Off",
+      "sourceColor": "Branco Off",
+      "sourceUrl": "https://www.calezza.com.br/produtos/molekinha-sandalia-infantil-molekinha-menina-linda-confortavel-fivela-rosa-charm-tiras-finas-brilhos-ajustavel-1ota4/",
+      "sourceSku": "2121101-BCOOFF-25",
+      "imageUrls": [
+        "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2114.294",
+      "color": "Dourada",
+      "sourceColor": "DOURADO",
+      "sourceUrl": "https://www.tropicalcalcados.com.br/produtos/molekinha-sandalia-macia-leve-social-laco-moda-fofa-2114-294-1ydjp/",
+      "sourceSku": "2114.294 - 7900466688527",
+      "imageUrls": [
+        "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+      ],
+      "method": "Imagem específica da opção de cor publicada pela loja",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2743.100",
+      "color": "Branco",
+      "sourceColor": "Branco",
+      "sourceUrl": "https://www.cacci.com.br/sandalia-molekinha-2743-100",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/1043290/sandalia_molekinha_2743100_21691_215689_1_20251006154809_fd4c4a0ce873.jpg"
+      ],
+      "method": "Referência e cor conferidas na página pública; somente imagens do produto principal",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "reference": "2861.216",
+      "color": "Preto c/ Marrom",
+      "sourceColor": "Cor confirmada visualmente na foto da referência exata",
+      "sourceUrl": "https://www.molekinho.com.br/produto/ref-2861-216/",
+      "imageUrls": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+      ],
+      "method": "Foto original do catálogo fabricante; referência exata e inspeção visual. Apenas a foto de cor compatível foi associada.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2609.233",
+      "color": "Azul Marinho",
+      "sourceColor": "Cor confirmada visualmente na foto da referência exata",
+      "sourceUrl": "https://www.molekinho.com.br/produto/ref-2609-233/",
+      "imageUrls": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+      ],
+      "method": "Foto original do catálogo fabricante; referência exata e inspeção visual. Apenas a foto de cor compatível foi associada.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "25006.101",
+      "color": "Dourado",
+      "sourceColor": "Dourado",
+      "sourceUrl": "https://www.seralle.com.br/tenis-casual-infantil-molekinha-dourado-82890/p",
+      "imageUrls": [
+        "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+      ],
+      "method": "Referência e cor confirmadas no anúncio específico e fotos inspecionadas visualmente; fotos de tabela de medidas e de outras cores rejeitadas.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2421.116",
+      "color": "Preto e Branco",
+      "sourceColor": "Preto e Branco",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/chinelo-slide-molekinho-infantil-com-velcro-preto/-/A-7010705849084-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+      ],
+      "method": "Referência e cor confirmadas no anúncio específico e fotos inspecionadas visualmente; fotos de tabela de medidas e de outras cores rejeitadas.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2749.300",
+      "color": "Mult Color",
+      "sourceColor": "Mult Color",
+      "sourceUrl": "https://www.feiradecalcados.com/molekinha-2749-300-31775-multi",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/1445958/babuche_infantil_menina_molekinha_2749300_1_20261001171100_ede2f578ebb4.png"
+      ],
+      "method": "Referência e cor confirmadas no anúncio específico e fotos inspecionadas visualmente; fotos de tabela de medidas e de outras cores rejeitadas.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2580.110",
+      "color": "Branco/Prata/Pink",
+      "sourceColor": "Branco/Prata/Pink",
+      "sourceUrl": "https://www.magazineluiza.com.br/molekinha-tenis-esportivo-infantil-ref-2580-110/p/gj6fdd2650/es/osnr/?seller_id=casavera",
+      "imageUrls": [
+        "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+      ],
+      "method": "Referência e cor confirmadas no anúncio específico e fotos inspecionadas visualmente; fotos de tabela de medidas e de outras cores rejeitadas.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2831.113",
+      "color": "Azul",
+      "sourceColor": "Azul",
+      "sourceUrl": "https://www.omarcalcados.com.br/tenis-molekinho-azul-infantil-menino-2831-113-29367-33300-190570/p",
+      "imageUrls": [
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800",
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800",
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800",
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+      ],
+      "method": "Referência e cor confirmadas no anúncio específico e fotos inspecionadas visualmente; fotos de tabela de medidas e de outras cores rejeitadas.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2745.103",
+      "color": "Branco Capivara",
+      "sourceColor": "Branco / Avelã / Dourado, tema Capivara",
+      "sourceUrl": "https://www.magazineluiza.com.br/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/p/eh7hd63e7g/md/tnii/?seller_id=riosulcalcados02",
+      "imageUrls": [
+        "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg",
+        "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+      ],
+      "method": "Referência e cor confirmadas no anúncio específico e fotos inspecionadas visualmente; fotos de tabela de medidas e de outras cores rejeitadas.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2750.103",
+      "color": "Dourado",
+      "sourceColor": "Dourado Branco Off",
+      "sourceUrl": "https://www.magazineluiza.com.br/tenis-infantil-molekinha-menina-casual-original-2750103-cor-dourado-branco-offtamanho-20/p/ec0e64ake7/es/osnr/?seller_id=simplespassocalcados",
+      "imageUrls": [
+        "https://a-static.mlcdn.com.br/420x420/tenis-infantil-molekinha-menina-casual-original-2750103-cor-dourado-branco-offtamanho-20/simplespassocalcados/2750103douradobrancooff20/2adedc0dd31c5588bfb9f4650561879c.jpeg"
+      ],
+      "method": "Foto principal do anúncio, separada da tabela de medidas; referência, cor e imagem real verificadas visualmente.",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "reference": "2305.2081",
+      "color": "Ouro Rosado",
+      "sourceColor": "Ouro Rosado / Rosado",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/sandalia-infantil-molekinha-flatform-ouro-rosado/-/A-7010707106031-br.lr?sku=7510715657034",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+      ],
+      "method": "Busca por descrição (flatform, concha e estrela-do-mar); referência 2305-2081 e cor Ouro Rosado confirmadas no anúncio; cinco fotos carregadas e inspecionadas visualmente",
+      "verifiedAt": "2026-10-08"
+    }
+  ],
+  "unresolved": [
+    {
+      "reference": "2580.11",
+      "color": "Preto",
+      "reason": "Fontes encontradas apresentam inconsistência entre 2580.11 e 2580.111; não substituir por 2580.110 ou 2580.111.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2580.11",
+      "color": "Branco Off",
+      "reason": "Fontes encontradas apresentam inconsistência entre 2580.11 e 2580.111; não substituir por 2580.110 ou 2580.111.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2417.205",
+      "color": "Azul",
+      "reason": "Fonte anuncia Azul, mas apresenta foto preta; precisa de foto azul confirmada.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2750.101",
+      "color": "Branco Off",
+      "reason": "Nenhuma foto com referência e cor confirmadas nas fontes pesquisadas; dados originais preservados",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2636.2010",
+      "color": "Azul Marinho/Branco",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2638.204",
+      "color": "Azul/Denim",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2623.11",
+      "color": "Preto/Marrom",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2749.101",
+      "color": "Bege",
+      "reason": "Fonte de referência exata encontrada, mas apresenta Preto; a cor da planilha é diferente.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2118.582",
+      "color": "Branco Off Glitter",
+      "reason": "Nova fonte exata mostra Branco e detalhes dourados, mas não confirma Branco Off Glitter. Não assumir equivalência de cores; foto preta original continua bloqueada.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2376.100",
+      "color": "Off",
+      "reason": "Nenhuma foto com referência e cor confirmadas nas fontes pesquisadas; dados originais preservados",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2121.101",
+      "color": "Rose",
+      "reason": "Fontes oferecem Rosa/Charm e Ouro/Rosado. Rose é ambíguo; não assumir uma delas.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2343.73",
+      "color": "Dourada",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2743.106",
+      "color": "Dourada",
+      "reason": "Fonte exata encontrada, mas foto principal identificada como imagem gerada por ChatGPT; aguarda foto real confirmada.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2342.107",
+      "color": "Branco Off",
+      "reason": "Nenhuma foto com referência e cor confirmadas nas fontes pesquisadas; dados originais preservados",
+      "lastSearchedAt": "2026-10-08"
+    }
+  ],
+  "rejected": [
+    {
+      "reference": "2417.205",
+      "color": "Azul",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/chinelo-molekinho-2417205-slide-nuvem-infantil/-/A-7010707029071-br.lr",
+      "reason": "Título/cor Azul, mas foto preta; associação rejeitada visualmente"
+    },
+    {
+      "reference": "2745.103",
+      "color": "Branco Capivara",
+      "reason": "Foto pesquisada de capivara pertence a 25000.204, não a 2745.103"
+    },
+    {
+      "reference": "2623.11",
+      "color": "Preto/Marrom",
+      "reason": "Página do fabricante redireciona para 2623.117; referência diferente"
+    },
+    {
+      "reference": "2743.106",
+      "color": "Dourada",
+      "reason": "Foto principal encontrada usa arquivo identificado como imagem gerada pelo ChatGPT; não adotada como foto real"
+    },
+    {
+      "reference": "2745.103",
+      "color": "Branco Capivara",
+      "sourceUrl": "https://www.riosulcalcados.com.br/categoria-infantil-menina-tenis/tenis-molekinha-bebe-infantil-com-pelucia-ursinho-branco",
+      "reason": "Foto Branco/Rosé encontrada nesta página; utilizada somente a versão Branco/Avelã do anúncio específico de capivara."
+    }
+  ]
+}

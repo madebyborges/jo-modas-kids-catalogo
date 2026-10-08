@@ -1,0 +1,55 @@
+{
+  "newColorAssociations": 7,
+  "newImages": 15,
+  "totalModels": 46,
+  "modelsWithDisplayablePhotos": 35,
+  "modelsWithoutDisplayablePhotos": 11,
+  "namedColorsWithPhotos": 37,
+  "pendingColors": 15,
+  "checks": [
+    {
+      "reference": "25006.101",
+      "color": "Dourado",
+      "source": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000",
+      "loaded": true
+    },
+    {
+      "reference": "2421.116",
+      "color": "Preto e Branco",
+      "source": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg",
+      "loaded": true
+    },
+    {
+      "reference": "2749.300",
+      "color": "Mult Color",
+      "source": "https://images.tcdn.com.br/img/img_prod/1445958/babuche_infantil_menina_molekinha_2749300_1_20261001171100_ede2f578ebb4.png",
+      "loaded": true
+    },
+    {
+      "reference": "2580.110",
+      "color": "Branco/Prata/Pink",
+      "source": "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg",
+      "loaded": true
+    },
+    {
+      "reference": "2831.113",
+      "color": "Azul",
+      "source": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800",
+      "loaded": true
+    },
+    {
+      "reference": "2745.103",
+      "color": "Branco Capivara",
+      "source": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg",
+      "loaded": true
+    },
+    {
+      "reference": "2750.103",
+      "color": "Dourado",
+      "source": "https://a-static.mlcdn.com.br/420x420/tenis-infantil-molekinha-menina-casual-original-2750103-cor-dourado-branco-offtamanho-20/simplespassocalcados/2750103douradobrancooff20/2adedc0dd31c5588bfb9f4650561879c.jpeg",
+      "loaded": true
+    }
+  ],
+  "failedImageUrls": [],
+  "pageErrors": []
+}

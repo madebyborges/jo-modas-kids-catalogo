@@ -1,0 +1,3562 @@
+{
+  "summary": {
+    "parents": 46,
+    "variants": 407,
+    "stock": 552,
+    "withWarnings": 46,
+    "withoutImage": 28,
+    "withoutGtin": 46,
+    "withoutOrigin": 46
+  },
+  "changedFields": {
+    "URL imagem externa 1": 18,
+    "URL imagem externa 2": 8,
+    "URL imagem externa 3": 5,
+    "Descrição": 280,
+    "Observações": 312,
+    "Descrição complementar": 280,
+    "Título SEO": 280,
+    "Descrição SEO": 280,
+    "Slug": 280,
+    "URL imagem externa 4": 3,
+    "URL imagem externa 5": 1
+  },
+  "descriptionChanges": [
+    {
+      "sku": "P25006101",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101"
+    },
+    {
+      "sku": "25006101DOURADOT26",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 26",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 26"
+    },
+    {
+      "sku": "25006101DOURADOT28",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 28",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 28"
+    },
+    {
+      "sku": "25006101DOURADOT29",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 29",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 29"
+    },
+    {
+      "sku": "25006101DOURADOT30",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 30",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 30"
+    },
+    {
+      "sku": "25006101DOURADOT31",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 31",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 31"
+    },
+    {
+      "sku": "25006101DOURADOT32",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 32",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 32"
+    },
+    {
+      "sku": "25006101DOURADOT33",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 33",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 33"
+    },
+    {
+      "sku": "25006101DOURADOT34",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 34",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 34"
+    },
+    {
+      "sku": "25006101DOURADOT35",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 35",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 35"
+    },
+    {
+      "sku": "25006101DOURADOT36",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Dourado - Tam. 36",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Dourado - Tam. 36"
+    },
+    {
+      "sku": "25006101PRATAT29",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Prata - Tam. 29",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Prata - Tam. 29"
+    },
+    {
+      "sku": "25006101PRATAT30",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Prata - Tam. 30",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Prata - Tam. 30"
+    },
+    {
+      "sku": "25006101PRATAT31",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Prata - Tam. 31",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Prata - Tam. 31"
+    },
+    {
+      "sku": "25006101PRATAT32",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Prata - Tam. 32",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Prata - Tam. 32"
+    },
+    {
+      "sku": "25006101PRATAT33",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Prata - Tam. 33",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Prata - Tam. 33"
+    },
+    {
+      "sku": "25006101PRATAT34",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Prata - Tam. 34",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Prata - Tam. 34"
+    },
+    {
+      "sku": "25006101PRATAT35",
+      "old": "Tênis Casual Infantil Molekinha Ref. 25006.101 - Prata - Tam. 35",
+      "new": "Tênis Casual Infantil Molekinha Metalizado Ref. 25006.101 - Prata - Tam. 35"
+    },
+    {
+      "sku": "P2580110",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110"
+    },
+    {
+      "sku": "2580110PRETOT26",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 26",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 26"
+    },
+    {
+      "sku": "2580110PRETOT27",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 27",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 27"
+    },
+    {
+      "sku": "2580110PRETOT28",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 28",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 28"
+    },
+    {
+      "sku": "2580110PRETOT29",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 29",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 29"
+    },
+    {
+      "sku": "2580110PRETOT30",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 30",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 30"
+    },
+    {
+      "sku": "2580110PRETOT33",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 33",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 33"
+    },
+    {
+      "sku": "2580110PRETOT35",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 35",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Preto - Tam. 35"
+    },
+    {
+      "sku": "2580110BRANCOPRATAPINKT27",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 27",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 27"
+    },
+    {
+      "sku": "2580110BRANCOPRATAPINKT28",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 28",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 28"
+    },
+    {
+      "sku": "2580110BRANCOPRATAPINKT29",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 29",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 29"
+    },
+    {
+      "sku": "2580110BRANCOPRATAPINKT32",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 32",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 32"
+    },
+    {
+      "sku": "2580110BRANCOPRATAPINKT33",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 33",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 33"
+    },
+    {
+      "sku": "2580110BRANCOPRATAPINKT35",
+      "old": "Tênis Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 35",
+      "new": "Tênis Esportivo Infantil Molekinha Light Foam Ref. 2580.110 - Branco/Prata/Pink - Tam. 35"
+    },
+    {
+      "sku": "P258011",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11"
+    },
+    {
+      "sku": "258011PRETOT26",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 26",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 26"
+    },
+    {
+      "sku": "258011PRETOT27",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 27",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 27"
+    },
+    {
+      "sku": "258011PRETOT30",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 30",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 30"
+    },
+    {
+      "sku": "258011PRETOT31",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 31",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 31"
+    },
+    {
+      "sku": "258011PRETOT32",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 32",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 32"
+    },
+    {
+      "sku": "258011PRETOT33",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 33",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 33"
+    },
+    {
+      "sku": "258011PRETOT34",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 34",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 34"
+    },
+    {
+      "sku": "258011PRETOT35",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Preto - Tam. 35",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Preto - Tam. 35"
+    },
+    {
+      "sku": "258011BRANCOOFFT27",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 27",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 27"
+    },
+    {
+      "sku": "258011BRANCOOFFT28",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 28",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 28"
+    },
+    {
+      "sku": "258011BRANCOOFFT29",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 29",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 29"
+    },
+    {
+      "sku": "258011BRANCOOFFT30",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 30",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 30"
+    },
+    {
+      "sku": "258011BRANCOOFFT31",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 31",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 31"
+    },
+    {
+      "sku": "258011BRANCOOFFT32",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 32",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 32"
+    },
+    {
+      "sku": "258011BRANCOOFFT34",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 34",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 34"
+    },
+    {
+      "sku": "258011BRANCOOFFT35",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 35",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 35"
+    },
+    {
+      "sku": "258011BRANCOOFFT36",
+      "old": "Tênis Infantil Molekinha Ref. 2580.11 - Branco Off - Tam. 36",
+      "new": "Tênis Infantil Molekinha Light Foam com Velcro Ref. 2580.11 - Branco Off - Tam. 36"
+    },
+    {
+      "sku": "P2565113",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113"
+    },
+    {
+      "sku": "2565113PRETOT26",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 26",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 26"
+    },
+    {
+      "sku": "2565113PRETOT27",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 27",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 27"
+    },
+    {
+      "sku": "2565113PRETOT28",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 28",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 28"
+    },
+    {
+      "sku": "2565113PRETOT30",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 30",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 30"
+    },
+    {
+      "sku": "2565113PRETOT31",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 31",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 31"
+    },
+    {
+      "sku": "2565113PRETOT32",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 32",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 32"
+    },
+    {
+      "sku": "2565113PRETOT33",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 33",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 33"
+    },
+    {
+      "sku": "2565113PRETOT34",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Preto - Tam. 34",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Preto - Tam. 34"
+    },
+    {
+      "sku": "2565113ROSAT26",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 26",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 26"
+    },
+    {
+      "sku": "2565113ROSAT27",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 27",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 27"
+    },
+    {
+      "sku": "2565113ROSAT28",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 28",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 28"
+    },
+    {
+      "sku": "2565113ROSAT29",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 29",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 29"
+    },
+    {
+      "sku": "2565113ROSAT30",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 30",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 30"
+    },
+    {
+      "sku": "2565113ROSAT31",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 31",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 31"
+    },
+    {
+      "sku": "2565113ROSAT32",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 32",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 32"
+    },
+    {
+      "sku": "2565113ROSAT34",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 34",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 34"
+    },
+    {
+      "sku": "2565113ROSAT35",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 35",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 35"
+    },
+    {
+      "sku": "2565113ROSAT36",
+      "old": "Tênis Infantil Molekinha Ref. 2565.113 - Rosa - Tam. 36",
+      "new": "Tênis Infantil Molekinha Plataforma Conforto Ref. 2565.113 - Rosa - Tam. 36"
+    },
+    {
+      "sku": "P2838232",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232"
+    },
+    {
+      "sku": "2838232PRETOT27",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Preto - Tam. 27",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Preto - Tam. 27"
+    },
+    {
+      "sku": "2838232PRETOT28",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Preto - Tam. 28",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Preto - Tam. 28"
+    },
+    {
+      "sku": "2838232PRETOT29",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Preto - Tam. 29",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Preto - Tam. 29"
+    },
+    {
+      "sku": "2838232PRETOT30",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Preto - Tam. 30",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Preto - Tam. 30"
+    },
+    {
+      "sku": "2838232PRETOT32",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Preto - Tam. 32",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Preto - Tam. 32"
+    },
+    {
+      "sku": "2838232PRETOT34",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Preto - Tam. 34",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Preto - Tam. 34"
+    },
+    {
+      "sku": "2838232PRETOT35",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Preto - Tam. 35",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Preto - Tam. 35"
+    },
+    {
+      "sku": "2838232AZULMARINHOT27",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 27",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 27"
+    },
+    {
+      "sku": "2838232AZULMARINHOT28",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 28",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 28"
+    },
+    {
+      "sku": "2838232AZULMARINHOT29",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 29",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 29"
+    },
+    {
+      "sku": "2838232AZULMARINHOT30",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 30",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 30"
+    },
+    {
+      "sku": "2838232AZULMARINHOT31",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 31",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 31"
+    },
+    {
+      "sku": "2838232AZULMARINHOT32",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 32",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 32"
+    },
+    {
+      "sku": "2838232AZULMARINHOT34",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 34",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 34"
+    },
+    {
+      "sku": "2838232AZULMARINHOT36",
+      "old": "Tênis Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 36",
+      "new": "Tênis Casual Botinha Infantil Molekinho Ref. 2838.232 - Azul Marinho - Tam. 36"
+    },
+    {
+      "sku": "P2357103",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103"
+    },
+    {
+      "sku": "2357103OFFT26",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 26",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 26"
+    },
+    {
+      "sku": "2357103OFFT27",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 27",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 27"
+    },
+    {
+      "sku": "2357103OFFT28",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 28",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 28"
+    },
+    {
+      "sku": "2357103OFFT30",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 30",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 30"
+    },
+    {
+      "sku": "2357103OFFT31",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 31",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 31"
+    },
+    {
+      "sku": "2357103OFFT32",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 32",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 32"
+    },
+    {
+      "sku": "2357103OFFT33",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 33",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 33"
+    },
+    {
+      "sku": "2357103OFFT34",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 34",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 34"
+    },
+    {
+      "sku": "2357103OFFT35",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 35",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 35"
+    },
+    {
+      "sku": "2357103OFFT36",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Off - Tam. 36",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Off - Tam. 36"
+    },
+    {
+      "sku": "2357103BRANCAT29",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Branca - Tam. 29",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Branca - Tam. 29"
+    },
+    {
+      "sku": "2357103BRANCAT30",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Branca - Tam. 30",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Branca - Tam. 30"
+    },
+    {
+      "sku": "2357103BRANCAT31",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Branca - Tam. 31",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Branca - Tam. 31"
+    },
+    {
+      "sku": "2357103BRANCAT33",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Branca - Tam. 33",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Branca - Tam. 33"
+    },
+    {
+      "sku": "2357103BRANCAT35",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Branca - Tam. 35",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Branca - Tam. 35"
+    },
+    {
+      "sku": "2357103BRANCAT36",
+      "old": "Sandália Infantil Molekinha Ref. 2357.103 - Branca - Tam. 36",
+      "new": "Tamanco Papete Anatômico Infantil Molekinha com Fivela Ref. 2357.103 - Branca - Tam. 36"
+    },
+    {
+      "sku": "P2417100",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100"
+    },
+    {
+      "sku": "2417100AZULMARINHOT2728",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 27/28",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 27/28"
+    },
+    {
+      "sku": "2417100AZULMARINHOT2930",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 29/30",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 29/30"
+    },
+    {
+      "sku": "2417100AZULMARINHOT3132",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 31/32",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 31/32"
+    },
+    {
+      "sku": "2417100AZULMARINHOT3334",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 33/34",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 33/34"
+    },
+    {
+      "sku": "2417100AZULMARINHOT3536",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 35/36",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Azul Marinho - Tam. 35/36"
+    },
+    {
+      "sku": "2417100PRETOT2728",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 27/28",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 27/28"
+    },
+    {
+      "sku": "2417100PRETOT2930",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 29/30",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 29/30"
+    },
+    {
+      "sku": "2417100PRETOT3132",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 31/32",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 31/32"
+    },
+    {
+      "sku": "2417100PRETOT3334",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 33/34",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 33/34"
+    },
+    {
+      "sku": "2417100PRETOT3536",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 35/36",
+      "new": "Chinelo Nuvem Slide Infantil Molekinho Ref. 2417.100 - Preto - Tam. 35/36"
+    },
+    {
+      "sku": "P2417205",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205"
+    },
+    {
+      "sku": "2417205PRETOT2728",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Preto - Tam. 27/28",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Preto - Tam. 27/28"
+    },
+    {
+      "sku": "2417205PRETOT2930",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Preto - Tam. 29/30",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Preto - Tam. 29/30"
+    },
+    {
+      "sku": "2417205PRETOT3132",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Preto - Tam. 31/32",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Preto - Tam. 31/32"
+    },
+    {
+      "sku": "2417205PRETOT3334",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Preto - Tam. 33/34",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Preto - Tam. 33/34"
+    },
+    {
+      "sku": "2417205PRETOT3536",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Preto - Tam. 35/36",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Preto - Tam. 35/36"
+    },
+    {
+      "sku": "2417205AZULT2728",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Azul - Tam. 27/28",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Azul - Tam. 27/28"
+    },
+    {
+      "sku": "2417205AZULT2930",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Azul - Tam. 29/30",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Azul - Tam. 29/30"
+    },
+    {
+      "sku": "2417205AZULT3132",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Azul - Tam. 31/32",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Azul - Tam. 31/32"
+    },
+    {
+      "sku": "2417205AZULT3334",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Azul - Tam. 33/34",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Azul - Tam. 33/34"
+    },
+    {
+      "sku": "2417205AZULT3536",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2417.205 - Azul - Tam. 35/36",
+      "new": "Chinelo Slide Infantil Molekinho EVA Ref. 2417.205 - Azul - Tam. 35/36"
+    },
+    {
+      "sku": "P2723224",
+      "old": "Tênis Casual Infantil Molekinha Ref. 2723.224",
+      "new": "Tênis Casual Infantil Molekinha Joaninha Calce Fácil Ref. 2723.224"
+    },
+    {
+      "sku": "2723224T20",
+      "old": "Tênis Casual Infantil Molekinha Ref. 2723.224 - Tam. 20",
+      "new": "Tênis Casual Infantil Molekinha Joaninha Calce Fácil Ref. 2723.224 - Tam. 20"
+    },
+    {
+      "sku": "2723224T21",
+      "old": "Tênis Casual Infantil Molekinha Ref. 2723.224 - Tam. 21",
+      "new": "Tênis Casual Infantil Molekinha Joaninha Calce Fácil Ref. 2723.224 - Tam. 21"
+    },
+    {
+      "sku": "2723224T22",
+      "old": "Tênis Casual Infantil Molekinha Ref. 2723.224 - Tam. 22",
+      "new": "Tênis Casual Infantil Molekinha Joaninha Calce Fácil Ref. 2723.224 - Tam. 22"
+    },
+    {
+      "sku": "2723224T23",
+      "old": "Tênis Casual Infantil Molekinha Ref. 2723.224 - Tam. 23",
+      "new": "Tênis Casual Infantil Molekinha Joaninha Calce Fácil Ref. 2723.224 - Tam. 23"
+    },
+    {
+      "sku": "2723224T24",
+      "old": "Tênis Casual Infantil Molekinha Ref. 2723.224 - Tam. 24",
+      "new": "Tênis Casual Infantil Molekinha Joaninha Calce Fácil Ref. 2723.224 - Tam. 24"
+    },
+    {
+      "sku": "2723224T25",
+      "old": "Tênis Casual Infantil Molekinha Ref. 2723.224 - Tam. 25",
+      "new": "Tênis Casual Infantil Molekinha Joaninha Calce Fácil Ref. 2723.224 - Tam. 25"
+    },
+    {
+      "sku": "P2750101",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101"
+    },
+    {
+      "sku": "2750101BRANCOOFFT18",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 18",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 18"
+    },
+    {
+      "sku": "2750101BRANCOOFFT19",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 19",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 19"
+    },
+    {
+      "sku": "2750101BRANCOOFFT20",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 20",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 20"
+    },
+    {
+      "sku": "2750101BRANCOOFFT21",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 21",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 21"
+    },
+    {
+      "sku": "2750101BRANCOOFFT22",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 22",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 22"
+    },
+    {
+      "sku": "2750101BRANCOOFFT23",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 23",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 23"
+    },
+    {
+      "sku": "2750101BRANCOOFFT24",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 24",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 24"
+    },
+    {
+      "sku": "2750101BRANCOOFFT25",
+      "old": "Tênis Infantil Molekinha Ref. 2750.101 - Branco Off - Tam. 25",
+      "new": "Sapatilha Infantil Molekinha Baby Calce Fácil Ref. 2750.101 - Branco Off - Tam. 25"
+    },
+    {
+      "sku": "P2831113",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113"
+    },
+    {
+      "sku": "2831113AZULT27",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 27",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 27"
+    },
+    {
+      "sku": "2831113AZULT28",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 28",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 28"
+    },
+    {
+      "sku": "2831113AZULT29",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 29",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 29"
+    },
+    {
+      "sku": "2831113AZULT30",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 30",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 30"
+    },
+    {
+      "sku": "2831113AZULT31",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 31",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 31"
+    },
+    {
+      "sku": "2831113AZULT33",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 33",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 33"
+    },
+    {
+      "sku": "2831113AZULT34",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 34",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 34"
+    },
+    {
+      "sku": "2831113AZULT35",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 35",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 35"
+    },
+    {
+      "sku": "2831113AZULT36",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Azul - Tam. 36",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Azul - Tam. 36"
+    },
+    {
+      "sku": "2831113PRETOT27",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Preto - Tam. 27",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Preto - Tam. 27"
+    },
+    {
+      "sku": "2831113PRETOT28",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Preto - Tam. 28",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Preto - Tam. 28"
+    },
+    {
+      "sku": "2831113PRETOT30",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Preto - Tam. 30",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Preto - Tam. 30"
+    },
+    {
+      "sku": "2831113PRETOT31",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Preto - Tam. 31",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Preto - Tam. 31"
+    },
+    {
+      "sku": "2831113PRETOT32",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Preto - Tam. 32",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Preto - Tam. 32"
+    },
+    {
+      "sku": "2831113PRETOT34",
+      "old": "Tênis Infantil Molekinho Ref. 2831.113 - Preto - Tam. 34",
+      "new": "Tênis Infantil Molekinho Slip On Esportivo Ref. 2831.113 - Preto - Tam. 34"
+    },
+    {
+      "sku": "P2342122",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122"
+    },
+    {
+      "sku": "2342122T26",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122 - Tam. 26",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122 - Tam. 26"
+    },
+    {
+      "sku": "2342122T27",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122 - Tam. 27",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122 - Tam. 27"
+    },
+    {
+      "sku": "2342122T28",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122 - Tam. 28",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122 - Tam. 28"
+    },
+    {
+      "sku": "2342122T32",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122 - Tam. 32",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122 - Tam. 32"
+    },
+    {
+      "sku": "2342122T34",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122 - Tam. 34",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122 - Tam. 34"
+    },
+    {
+      "sku": "2342122T35",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122 - Tam. 35",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122 - Tam. 35"
+    },
+    {
+      "sku": "2342122T36",
+      "old": "Sandália Infantil Molekinha Ref. 2342.122 - Tam. 36",
+      "new": "Sandália Rasteira Infantil Molekinha com Strass Ref. 2342.122 - Tam. 36"
+    },
+    {
+      "sku": "P23052082",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082"
+    },
+    {
+      "sku": "23052082T25",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 25",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 25"
+    },
+    {
+      "sku": "23052082T26",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 26",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 26"
+    },
+    {
+      "sku": "23052082T27",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 27",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 27"
+    },
+    {
+      "sku": "23052082T28",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 28",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 28"
+    },
+    {
+      "sku": "23052082T29",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 29",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 29"
+    },
+    {
+      "sku": "23052082T30",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 30",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 30"
+    },
+    {
+      "sku": "23052082T32",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 32",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 32"
+    },
+    {
+      "sku": "23052082T34",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 34",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 34"
+    },
+    {
+      "sku": "23052082T36",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2082 - Tam. 36",
+      "new": "Sandália Infantil Molekinha com Tiras e Fivela Ref. 2305.2082 - Tam. 36"
+    },
+    {
+      "sku": "P2357120",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120"
+    },
+    {
+      "sku": "2357120T29",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 29",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 29"
+    },
+    {
+      "sku": "2357120T30",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 30",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 30"
+    },
+    {
+      "sku": "2357120T31",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 31",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 31"
+    },
+    {
+      "sku": "2357120T32",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 32",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 32"
+    },
+    {
+      "sku": "2357120T33",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 33",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 33"
+    },
+    {
+      "sku": "2357120T34",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 34",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 34"
+    },
+    {
+      "sku": "2357120T35",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 35",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 35"
+    },
+    {
+      "sku": "2357120T36",
+      "old": "Sandália Infantil Molekinha Ref. 2357.120 - Tam. 36",
+      "new": "Tamanco Infantil Molekinha Slide Confort Ref. 2357.120 - Tam. 36"
+    },
+    {
+      "sku": "P2752200",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200"
+    },
+    {
+      "sku": "2752200BRANCOOFFT1920",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Branco Off - Tam. 19/20",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Branco Off - Tam. 19/20"
+    },
+    {
+      "sku": "2752200BRANCOOFFT2122",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Branco Off - Tam. 21/22",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Branco Off - Tam. 21/22"
+    },
+    {
+      "sku": "2752200BRANCOOFFT2324",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Branco Off - Tam. 23/24",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Branco Off - Tam. 23/24"
+    },
+    {
+      "sku": "2752200BRANCOOFFT2526",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Branco Off - Tam. 25/26",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Branco Off - Tam. 25/26"
+    },
+    {
+      "sku": "2752200ROSAT1920",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Rosa - Tam. 19/20",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Rosa - Tam. 19/20"
+    },
+    {
+      "sku": "2752200ROSAT2122",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Rosa - Tam. 21/22",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Rosa - Tam. 21/22"
+    },
+    {
+      "sku": "2752200ROSAT2324",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Rosa - Tam. 23/24",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Rosa - Tam. 23/24"
+    },
+    {
+      "sku": "2752200ROSAT2526",
+      "old": "Sandália Infantil Molekinha Ref. 2752.200 - Rosa - Tam. 25/26",
+      "new": "Sandália Bebê Molekinha Calce Fácil Ref. 2752.200 - Rosa - Tam. 25/26"
+    },
+    {
+      "sku": "P2749101",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.101",
+      "new": "Babuche Infantil Molekinha Estrelas Ref. 2749.101"
+    },
+    {
+      "sku": "2749101BEGET2122",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.101 - Bege - Tam. 21/22",
+      "new": "Babuche Infantil Molekinha Estrelas Ref. 2749.101 - Bege - Tam. 21/22"
+    },
+    {
+      "sku": "2749101BEGET2324",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.101 - Bege - Tam. 23/24",
+      "new": "Babuche Infantil Molekinha Estrelas Ref. 2749.101 - Bege - Tam. 23/24"
+    },
+    {
+      "sku": "2749101BEGET2526",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.101 - Bege - Tam. 25/26",
+      "new": "Babuche Infantil Molekinha Estrelas Ref. 2749.101 - Bege - Tam. 25/26"
+    },
+    {
+      "sku": "P2749102",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.102",
+      "new": "Babuche Infantil Molekinha com Detalhes Ref. 2749.102"
+    },
+    {
+      "sku": "2749102ROSAT1920",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.102 - Rosa - Tam. 19/20",
+      "new": "Babuche Infantil Molekinha com Detalhes Ref. 2749.102 - Rosa - Tam. 19/20"
+    },
+    {
+      "sku": "2749102ROSAT2122",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.102 - Rosa - Tam. 21/22",
+      "new": "Babuche Infantil Molekinha com Detalhes Ref. 2749.102 - Rosa - Tam. 21/22"
+    },
+    {
+      "sku": "2749102ROSAT2324",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.102 - Rosa - Tam. 23/24",
+      "new": "Babuche Infantil Molekinha com Detalhes Ref. 2749.102 - Rosa - Tam. 23/24"
+    },
+    {
+      "sku": "2749102ROSAT2526",
+      "old": "Sandália Babuche Infantil Molekinha Ref. 2749.102 - Rosa - Tam. 25/26",
+      "new": "Babuche Infantil Molekinha com Detalhes Ref. 2749.102 - Rosa - Tam. 25/26"
+    },
+    {
+      "sku": "P2728103",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103"
+    },
+    {
+      "sku": "2728103ROSAT17",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103 - Rosa - Tam. 17",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103 - Rosa - Tam. 17"
+    },
+    {
+      "sku": "2728103ROSAT18",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103 - Rosa - Tam. 18",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103 - Rosa - Tam. 18"
+    },
+    {
+      "sku": "2728103ROSAT19",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103 - Rosa - Tam. 19",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103 - Rosa - Tam. 19"
+    },
+    {
+      "sku": "2728103ROSAT20",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103 - Rosa - Tam. 20",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103 - Rosa - Tam. 20"
+    },
+    {
+      "sku": "2728103ROSAT21",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103 - Rosa - Tam. 21",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103 - Rosa - Tam. 21"
+    },
+    {
+      "sku": "2728103ROSAT22",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103 - Rosa - Tam. 22",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103 - Rosa - Tam. 22"
+    },
+    {
+      "sku": "2728103ROSAT23",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2728.103 - Rosa - Tam. 23",
+      "new": "Tênis Infantil Molekinha Coração Velcro Calce Fácil Ref. 2728.103 - Rosa - Tam. 23"
+    },
+    {
+      "sku": "P2118582",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT17",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 17",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 17"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT18",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 18",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 18"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT19",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 19",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 19"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT20",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 20",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 20"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT21",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 21",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 21"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT22",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 22",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 22"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT23",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 23",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 23"
+    },
+    {
+      "sku": "2118582BRANCOOFFGLITTERT25",
+      "old": "Tênis Infantil Molekinha Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 25",
+      "new": "Tênis Infantil Molekinha Brilho Cadarço Elástico Calce Fácil Ref. 2118.582 - Branco Off Glitter - Tam. 25"
+    },
+    {
+      "sku": "P2421116",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116"
+    },
+    {
+      "sku": "2421116PRETOEBRANCOT27",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116 - Preto e Branco - Tam. 27",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116 - Preto e Branco - Tam. 27"
+    },
+    {
+      "sku": "2421116PRETOEBRANCOT29",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116 - Preto e Branco - Tam. 29",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116 - Preto e Branco - Tam. 29"
+    },
+    {
+      "sku": "2421116PRETOEBRANCOT30",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116 - Preto e Branco - Tam. 30",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116 - Preto e Branco - Tam. 30"
+    },
+    {
+      "sku": "2421116PRETOEBRANCOT31",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116 - Preto e Branco - Tam. 31",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116 - Preto e Branco - Tam. 31"
+    },
+    {
+      "sku": "2421116PRETOEBRANCOT32",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116 - Preto e Branco - Tam. 32",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116 - Preto e Branco - Tam. 32"
+    },
+    {
+      "sku": "2421116PRETOEBRANCOT33",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116 - Preto e Branco - Tam. 33",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116 - Preto e Branco - Tam. 33"
+    },
+    {
+      "sku": "2421116PRETOEBRANCOT34",
+      "old": "Chinelo Slide Infantil Molekinho Ref. 2421.116 - Preto e Branco - Tam. 34",
+      "new": "Chinelo Slide Infantil Molekinho Conforto Ref. 2421.116 - Preto e Branco - Tam. 34"
+    },
+    {
+      "sku": "P2631110",
+      "old": "Tênis Infantil Molekinho Ref. 2631.110",
+      "new": "Tênis Infantil Molekinho Slip On com Elástico e Velcro Ref. 2631.110"
+    },
+    {
+      "sku": "2631110AREIAT19",
+      "old": "Tênis Infantil Molekinho Ref. 2631.110 - Areia - Tam. 19",
+      "new": "Tênis Infantil Molekinho Slip On com Elástico e Velcro Ref. 2631.110 - Areia - Tam. 19"
+    },
+    {
+      "sku": "2631110AREIAT20",
+      "old": "Tênis Infantil Molekinho Ref. 2631.110 - Areia - Tam. 20",
+      "new": "Tênis Infantil Molekinho Slip On com Elástico e Velcro Ref. 2631.110 - Areia - Tam. 20"
+    },
+    {
+      "sku": "2631110AREIAT22",
+      "old": "Tênis Infantil Molekinho Ref. 2631.110 - Areia - Tam. 22",
+      "new": "Tênis Infantil Molekinho Slip On com Elástico e Velcro Ref. 2631.110 - Areia - Tam. 22"
+    },
+    {
+      "sku": "2631110AREIAT23",
+      "old": "Tênis Infantil Molekinho Ref. 2631.110 - Areia - Tam. 23",
+      "new": "Tênis Infantil Molekinho Slip On com Elástico e Velcro Ref. 2631.110 - Areia - Tam. 23"
+    },
+    {
+      "sku": "2631110AREIAT25",
+      "old": "Tênis Infantil Molekinho Ref. 2631.110 - Areia - Tam. 25",
+      "new": "Tênis Infantil Molekinho Slip On com Elástico e Velcro Ref. 2631.110 - Areia - Tam. 25"
+    },
+    {
+      "sku": "2631110AREIAT26",
+      "old": "Tênis Infantil Molekinho Ref. 2631.110 - Areia - Tam. 26",
+      "new": "Tênis Infantil Molekinho Slip On com Elástico e Velcro Ref. 2631.110 - Areia - Tam. 26"
+    },
+    {
+      "sku": "P2121101",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101"
+    },
+    {
+      "sku": "2121101ROSET18",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Rose - Tam. 18",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Rose - Tam. 18"
+    },
+    {
+      "sku": "2121101ROSET19",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Rose - Tam. 19",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Rose - Tam. 19"
+    },
+    {
+      "sku": "2121101ROSET20",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Rose - Tam. 20",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Rose - Tam. 20"
+    },
+    {
+      "sku": "2121101ROSET21",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Rose - Tam. 21",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Rose - Tam. 21"
+    },
+    {
+      "sku": "2121101ROSET23",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Rose - Tam. 23",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Rose - Tam. 23"
+    },
+    {
+      "sku": "2121101ROSET24",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Rose - Tam. 24",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Rose - Tam. 24"
+    },
+    {
+      "sku": "2121101ROSET25",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Rose - Tam. 25",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Rose - Tam. 25"
+    },
+    {
+      "sku": "2121101BRANCOOFFT18",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Branco Off - Tam. 18",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Branco Off - Tam. 18"
+    },
+    {
+      "sku": "2121101BRANCOOFFT19",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Branco Off - Tam. 19",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Branco Off - Tam. 19"
+    },
+    {
+      "sku": "2121101BRANCOOFFT21",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Branco Off - Tam. 21",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Branco Off - Tam. 21"
+    },
+    {
+      "sku": "2121101BRANCOOFFT22",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Branco Off - Tam. 22",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Branco Off - Tam. 22"
+    },
+    {
+      "sku": "2121101BRANCOOFFT23",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Branco Off - Tam. 23",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Branco Off - Tam. 23"
+    },
+    {
+      "sku": "2121101BRANCOOFFT24",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Branco Off - Tam. 24",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Branco Off - Tam. 24"
+    },
+    {
+      "sku": "2121101BRANCOOFFT25",
+      "old": "Sandália Infantil Molekinha Ref. 2121.101 - Branco Off - Tam. 25",
+      "new": "Sandália Infantil Molekinha com Brilhos e Fivela Ref. 2121.101 - Branco Off - Tam. 25"
+    },
+    {
+      "sku": "P2743106",
+      "old": "Sandália Infantil Molekinha Ref. 2743.106",
+      "new": "Sandália Infantil Molekinha Napa Dourada Ref. 2743.106"
+    },
+    {
+      "sku": "2743106DOURADAT18",
+      "old": "Sandália Infantil Molekinha Ref. 2743.106 - Dourada - Tam. 18",
+      "new": "Sandália Infantil Molekinha Napa Dourada Ref. 2743.106 - Dourada - Tam. 18"
+    },
+    {
+      "sku": "2743106DOURADAT20",
+      "old": "Sandália Infantil Molekinha Ref. 2743.106 - Dourada - Tam. 20",
+      "new": "Sandália Infantil Molekinha Napa Dourada Ref. 2743.106 - Dourada - Tam. 20"
+    },
+    {
+      "sku": "2743106DOURADAT21",
+      "old": "Sandália Infantil Molekinha Ref. 2743.106 - Dourada - Tam. 21",
+      "new": "Sandália Infantil Molekinha Napa Dourada Ref. 2743.106 - Dourada - Tam. 21"
+    },
+    {
+      "sku": "2743106DOURADAT22",
+      "old": "Sandália Infantil Molekinha Ref. 2743.106 - Dourada - Tam. 22",
+      "new": "Sandália Infantil Molekinha Napa Dourada Ref. 2743.106 - Dourada - Tam. 22"
+    },
+    {
+      "sku": "2743106DOURADAT23",
+      "old": "Sandália Infantil Molekinha Ref. 2743.106 - Dourada - Tam. 23",
+      "new": "Sandália Infantil Molekinha Napa Dourada Ref. 2743.106 - Dourada - Tam. 23"
+    },
+    {
+      "sku": "P2114294",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294"
+    },
+    {
+      "sku": "2114294DOURADAT18",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294 - Dourada - Tam. 18",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294 - Dourada - Tam. 18"
+    },
+    {
+      "sku": "2114294DOURADAT19",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294 - Dourada - Tam. 19",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294 - Dourada - Tam. 19"
+    },
+    {
+      "sku": "2114294DOURADAT20",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294 - Dourada - Tam. 20",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294 - Dourada - Tam. 20"
+    },
+    {
+      "sku": "2114294DOURADAT21",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294 - Dourada - Tam. 21",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294 - Dourada - Tam. 21"
+    },
+    {
+      "sku": "2114294DOURADAT22",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294 - Dourada - Tam. 22",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294 - Dourada - Tam. 22"
+    },
+    {
+      "sku": "2114294DOURADAT24",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294 - Dourada - Tam. 24",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294 - Dourada - Tam. 24"
+    },
+    {
+      "sku": "2114294DOURADAT25",
+      "old": "Sandália Infantil Molekinha Ref. 2114.294 - Dourada - Tam. 25",
+      "new": "Sandália Infantil Molekinha Solado Baixo com Laços Ref. 2114.294 - Dourada - Tam. 25"
+    },
+    {
+      "sku": "P2743100",
+      "old": "Sandália Infantil Molekinha Ref. 2743.100",
+      "new": "Sandália Infantil Molekinha Metalizada com Fivela Ref. 2743.100"
+    },
+    {
+      "sku": "2743100BRANCOT19",
+      "old": "Sandália Infantil Molekinha Ref. 2743.100 - Branco - Tam. 19",
+      "new": "Sandália Infantil Molekinha Metalizada com Fivela Ref. 2743.100 - Branco - Tam. 19"
+    },
+    {
+      "sku": "2743100BRANCOT21",
+      "old": "Sandália Infantil Molekinha Ref. 2743.100 - Branco - Tam. 21",
+      "new": "Sandália Infantil Molekinha Metalizada com Fivela Ref. 2743.100 - Branco - Tam. 21"
+    },
+    {
+      "sku": "2743100BRANCOT22",
+      "old": "Sandália Infantil Molekinha Ref. 2743.100 - Branco - Tam. 22",
+      "new": "Sandália Infantil Molekinha Metalizada com Fivela Ref. 2743.100 - Branco - Tam. 22"
+    },
+    {
+      "sku": "2743100BRANCOT23",
+      "old": "Sandália Infantil Molekinha Ref. 2743.100 - Branco - Tam. 23",
+      "new": "Sandália Infantil Molekinha Metalizada com Fivela Ref. 2743.100 - Branco - Tam. 23"
+    },
+    {
+      "sku": "2743100BRANCOT24",
+      "old": "Sandália Infantil Molekinha Ref. 2743.100 - Branco - Tam. 24",
+      "new": "Sandália Infantil Molekinha Metalizada com Fivela Ref. 2743.100 - Branco - Tam. 24"
+    },
+    {
+      "sku": "2743100BRANCOT25",
+      "old": "Sandália Infantil Molekinha Ref. 2743.100 - Branco - Tam. 25",
+      "new": "Sandália Infantil Molekinha Metalizada com Fivela Ref. 2743.100 - Branco - Tam. 25"
+    },
+    {
+      "sku": "P23052081",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081"
+    },
+    {
+      "sku": "23052081OUROROSADOT25",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 25",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 25"
+    },
+    {
+      "sku": "23052081OUROROSADOT26",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 26",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 26"
+    },
+    {
+      "sku": "23052081OUROROSADOT27",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 27",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 27"
+    },
+    {
+      "sku": "23052081OUROROSADOT28",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 28",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 28"
+    },
+    {
+      "sku": "23052081OUROROSADOT29",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 29",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 29"
+    },
+    {
+      "sku": "23052081OUROROSADOT30",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 30",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 30"
+    },
+    {
+      "sku": "23052081OUROROSADOT31",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 31",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 31"
+    },
+    {
+      "sku": "23052081OUROROSADOT33",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 33",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 33"
+    },
+    {
+      "sku": "23052081OUROROSADOT34",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 34",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 34"
+    },
+    {
+      "sku": "23052081OUROROSADOT35",
+      "old": "Sandália Infantil Molekinha Ref. 2305.2081 - Ouro Rosado - Tam. 35",
+      "new": "Sandália Infantil Molekinha Plataforma Brilho Concha Ref. 2305.2081 - Ouro Rosado - Tam. 35"
+    }
+  ],
+  "fields": [
+    "ID",
+    "Código (SKU)",
+    "Descrição",
+    "Unidade",
+    "NCM (Classificação fiscal)",
+    "Origem",
+    "Preço",
+    "Valor IPI fixo",
+    "Observações",
+    "Situação",
+    "Estoque",
+    "Preço de custo",
+    "Cód do fornecedor",
+    "Fornecedor",
+    "Localização",
+    "Estoque máximo",
+    "Estoque mínimo",
+    "Peso líquido (Kg)",
+    "Peso bruto (Kg)",
+    "GTIN/EAN",
+    "GTIN/EAN tributável",
+    "Descrição complementar",
+    "CEST",
+    "Código de Enquadramento IPI",
+    "Formato embalagem",
+    "Largura embalagem",
+    "Altura Embalagem",
+    "Comprimento embalagem",
+    "Diâmetro embalagem",
+    "Tipo do produto",
+    "URL imagem 1",
+    "URL imagem 2",
+    "URL imagem 3",
+    "URL imagem 4",
+    "URL imagem 5",
+    "URL imagem 6",
+    "Categoria",
+    "Código do pai",
+    "Variações",
+    "Marca",
+    "Garantia",
+    "Sob encomenda",
+    "Preço promocional",
+    "URL imagem externa 1",
+    "URL imagem externa 2",
+    "URL imagem externa 3",
+    "URL imagem externa 4",
+    "URL imagem externa 5",
+    "URL imagem externa 6",
+    "Link do vídeo",
+    "Título SEO",
+    "Descrição SEO",
+    "Palavras chave SEO",
+    "Slug",
+    "Dias para preparação",
+    "Controlar lotes",
+    "Unidade por caixa",
+    "URL imagem externa 7",
+    "URL imagem externa 8",
+    "URL imagem externa 9",
+    "URL imagem externa 10",
+    "Markup",
+    "Permitir inclusão nas vendas",
+    "EX TIPI"
+  ],
+  "products": [
+    {
+      "reference": "25005.203",
+      "parentSku": "P25005203",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "33",
+        "34"
+      ],
+      "images": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707068165/7510715521219/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707068165/7510715521219/5.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707068165/7510715521219/6.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "25006.101",
+      "parentSku": "P25006101",
+      "colors": [
+        "Dourado",
+        "Prata"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [
+        "https://static.dafiti.com.br/p/Molekinha-Tenis-Infantil-Molekinha-Metalizado-Prata-6906-29697341-1-zoom.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2580.110",
+      "parentSku": "P2580110",
+      "colors": [
+        "Preto",
+        "Branco/Prata/Pink"
+      ],
+      "sizes": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "32",
+        "33",
+        "35"
+      ],
+      "images": [
+        "https://cloviscalcados.vteximg.com.br/arquivos/ids/1388585/Tenis-Infantil-Feminino-Molekinha-2580110-0442813_040-01.jpg?v=638978789938870000"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 aplicado provisoriamente. Cabedal aparece em fontes como misto de tecido e material sintético. Conferir XML ou NF de entrada do fornecedor.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2580.11",
+      "parentSku": "P258011",
+      "colors": [
+        "Preto",
+        "Branco Off"
+      ],
+      "sizes": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "similar_reference",
+          "message": "Referência precisa ser conferida. Existe também o produto 2580.110.",
+          "severity": "warning"
+        },
+        {
+          "type": "marketplace",
+          "message": "REVISAR REFERÊNCIA: muito semelhante a 2580.110; não publicar antes de confirmar. | Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 aplicado provisoriamente. Confirmar a própria referência, pois ela é muito semelhante a 2580.110. | Nome do produto localizado, mas a referência permanece em revisão: é muito semelhante a 2580.110 e a fonte pública consultada apresenta inconsistência 2580.11/2580.111. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2565.113",
+      "parentSku": "P2565113",
+      "colors": [
+        "Preto",
+        "Rosa"
+      ],
+      "sizes": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2565-113-9569-78276.jpg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706663126/7510714403841/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/1.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2838.232",
+      "parentSku": "P2838232",
+      "colors": [
+        "Preto",
+        "Azul Marinho"
+      ],
+      "sizes": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2861.117",
+      "parentSku": "P2861117",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/2859/7010705787084/7510712515227/1.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2357.103",
+      "parentSku": "P2357103",
+      "colors": [
+        "Off",
+        "Branca"
+      ],
+      "sizes": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2357-103-9569-52531.jpg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/4498/7010704086242/7510708374239/1.jpg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/5368/7010704831106/7510710157552/4.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM localizado em ficha pública da referência exata.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2861.216",
+      "parentSku": "P2861216",
+      "colors": [
+        "Preto c/ Marrom"
+      ],
+      "sizes": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "images": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2417.100",
+      "parentSku": "P2417100",
+      "colors": [
+        "Azul Marinho",
+        "Preto"
+      ],
+      "sizes": [
+        "27/28",
+        "29/30",
+        "31/32",
+        "33/34",
+        "35/36"
+      ],
+      "images": [
+        "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menino_molekinho_2417100_preto_1_20251024173519_3563dbdcef95.jpg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/701605609/754856466/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/701605609/754856466/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/701605609/754856466/2.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 aplicado pela descrição oficial do código: slide em EVA sem cobrir o tornozelo. Há fonte varejista informando 64029190, mas esse NCM descreve calçado que cobre o tornozelo. Conferir a NF de entrada.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2750.103",
+      "parentSku": "P2750103",
+      "colors": [
+        "Prata",
+        "Dourado"
+      ],
+      "sizes": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2417.205",
+      "parentSku": "P2417205",
+      "colors": [
+        "Preto",
+        "Azul"
+      ],
+      "sizes": [
+        "27/28",
+        "29/30",
+        "31/32",
+        "33/34",
+        "35/36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2723.224",
+      "parentSku": "P2723224",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2750.101",
+      "parentSku": "P2750101",
+      "colors": [
+        "Branco Off"
+      ],
+      "sizes": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2831.113",
+      "parentSku": "P2831113",
+      "colors": [
+        "Azul",
+        "Preto"
+      ],
+      "sizes": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [
+        "https://cloviscalcados.vteximg.com.br/arquivos/ids/1111125/Tenis-Infantil-Masculino-Molekinho-283113-A0441113_053-01.jpg?v=638550076417400000"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 aplicado provisoriamente. Há descrição de cabedal misto napa e nylon. Conferir XML ou NF de entrada do fornecedor.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2342.122",
+      "parentSku": "P2342122",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "26",
+        "27",
+        "28",
+        "32",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2342.115",
+      "parentSku": "P2342115",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/6857/7010706174134/7510713340669/3.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2305.2082",
+      "parentSku": "P23052082",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2357.120",
+      "parentSku": "P2357120",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2752.200",
+      "parentSku": "P2752200",
+      "colors": [
+        "Branco Off",
+        "Rosa"
+      ],
+      "sizes": [
+        "19/20",
+        "21/22",
+        "23/24",
+        "25/26"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2620.116",
+      "parentSku": "P2620116",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "19",
+        "21",
+        "22",
+        "23",
+        "25",
+        "26"
+      ],
+      "images": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2620-116-29367-73049.jpg",
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2620-116-29367-15745.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 aplicado provisoriamente. Há descrição de cabedal misto tecido e napa. Conferir XML ou NF de entrada do fornecedor.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2636.103",
+      "parentSku": "P2636103",
+      "colors": [
+        ""
+      ],
+      "sizes": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_color",
+          "message": "Há variações sem cor informada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2636.2010",
+      "parentSku": "P26362010",
+      "colors": [
+        "Azul Marinho/Branco"
+      ],
+      "sizes": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | Referência exata não localizada com segurança. Existe forte correspondência pública para 2636.210, mas o código não foi alterado sem confirmação do fornecedor. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2638.204",
+      "parentSku": "P2638204",
+      "colors": [
+        "Azul/Denim"
+      ],
+      "sizes": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | Nome comercial específico não identificado com segurança. Mantido como Sandália Infantil Molekinho. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2656.100",
+      "parentSku": "P2656100",
+      "colors": [
+        "Azul Marinho",
+        "Preta"
+      ],
+      "sizes": [
+        "19/20",
+        "21/22",
+        "23/24",
+        "25/26",
+        "25/36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "suspicious_size",
+          "message": "Tamanho 25/36 precisa ser conferido (Azul Marinho).",
+          "severity": "warning",
+          "sku": "2656100AZULMARINHOT2536"
+        },
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "REVISAR TAMANHO: Azul Marinho recebeu 25/36; provável divergência de digitação. | NCM 64029990 aplicado. Mantém também a pendência já existente do tamanho 25/36 na cor Azul Marinho. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2609.131",
+      "parentSku": "P2609131",
+      "colors": [
+        "Azul Marinho/Cinza"
+      ],
+      "sizes": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-131-30608-40589.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM localizado em ficha pública da referência exata.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2623.11",
+      "parentSku": "P262311",
+      "colors": [
+        "Preto/Marrom"
+      ],
+      "sizes": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | Referência exata não localizada com segurança. Foram encontrados modelos 2623.110 e 2623.111, mas não é seguro assumir que sejam este produto. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2609.233",
+      "parentSku": "P2609233",
+      "colors": [
+        "Azul Marinho"
+      ],
+      "sizes": [
+        "19",
+        "21",
+        "22",
+        "23",
+        "25",
+        "26"
+      ],
+      "images": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-15745.jpg",
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM localizado em ficha pública da referência exata.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2749.300",
+      "parentSku": "P2749300",
+      "colors": [
+        "Mult Color"
+      ],
+      "sizes": [
+        "19/20",
+        "21/22",
+        "23/24",
+        "25/26"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2749.101",
+      "parentSku": "P2749101",
+      "colors": [
+        "Bege"
+      ],
+      "sizes": [
+        "21/22",
+        "23/24",
+        "25/26"
+      ],
+      "images": [
+        "https://static.dafiti.com.br/p/Molekinha-Babuche-Molekinha-Infantil-Estrelas-Rosa-2424-1686886-1-zoom.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2749.102",
+      "parentSku": "P2749102",
+      "colors": [
+        "Rosa"
+      ],
+      "sizes": [
+        "19/20",
+        "21/22",
+        "23/24",
+        "25/26"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2728.103",
+      "parentSku": "P2728103",
+      "colors": [
+        "Rosa"
+      ],
+      "sizes": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "images": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6182/7010705948421/7510712851013/4.jpeg",
+        "https://dcdn.mitiendanube.com/stores/004/709/418/products/design-sem-nome-15-51b69838113c391c3517268449562365-1024-1024.png",
+        "https://imgmarketplace.lojasrenner.com.br/20001/3310/7010704069900/7510708331339/1.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2723.222",
+      "parentSku": "P2723222",
+      "colors": [
+        "Rosa",
+        "Preto"
+      ],
+      "sizes": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2745.103",
+      "parentSku": "P2745103",
+      "colors": [
+        "Branco Capivara"
+      ],
+      "sizes": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "22",
+        "25"
+      ],
+      "images": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706676353/7510714413441/0.jpeg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2118.582",
+      "parentSku": "P2118582",
+      "colors": [
+        "Branco Off Glitter"
+      ],
+      "sizes": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "images": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/3171/7010705688026/7510712249157/0.jpeg",
+        "https://cdn.awsli.com.br/2500x2500/2498/2498396/produto/351441494/_mg_6867-794w2zhmj2.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2376.100",
+      "parentSku": "P2376100",
+      "colors": [
+        "Rosa",
+        "Off"
+      ],
+      "sizes": [
+        "25/26",
+        "27/28",
+        "29/30",
+        "31/32",
+        "33/34",
+        "35/36"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2424.116",
+      "parentSku": "P2424116",
+      "colors": [
+        "Multi Preto"
+      ],
+      "sizes": [
+        "27",
+        "28",
+        "31",
+        "32",
+        "33"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2421.116",
+      "parentSku": "P2421116",
+      "colors": [
+        "Preto e Branco"
+      ],
+      "sizes": [
+        "27",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2631.110",
+      "parentSku": "P2631110",
+      "colors": [
+        "Areia"
+      ],
+      "sizes": [
+        "19",
+        "20",
+        "22",
+        "23",
+        "25",
+        "26"
+      ],
+      "images": [
+        "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2631-110-17063-95054.jpg"
+      ],
+      "warnings": [
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2121.101",
+      "parentSku": "P2121101",
+      "colors": [
+        "Rose",
+        "Branco Off"
+      ],
+      "sizes": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2343.73",
+      "parentSku": "P234373",
+      "colors": [
+        "Dourada"
+      ],
+      "sizes": [
+        "18",
+        "19",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | Nome comercial específico não identificado com segurança. Mantido como Sandália Infantil Molekinha. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2743.106",
+      "parentSku": "P2743106",
+      "colors": [
+        "Dourada"
+      ],
+      "sizes": [
+        "18",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "Nome/categoria padronizados; validar no catálogo antes da publicação. | NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2114.294",
+      "parentSku": "P2114294",
+      "colors": [
+        "Dourada"
+      ],
+      "sizes": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2743.100",
+      "parentSku": "P2743100",
+      "colors": [
+        "Branco"
+      ],
+      "sizes": [
+        "19",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2342.107",
+      "parentSku": "P2342107",
+      "colors": [
+        "Branco Off"
+      ],
+      "sizes": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "35"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    },
+    {
+      "reference": "2305.2081",
+      "parentSku": "P23052081",
+      "colors": [
+        "Ouro Rosado"
+      ],
+      "sizes": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "33",
+        "34",
+        "35"
+      ],
+      "images": [],
+      "warnings": [
+        {
+          "type": "missing_image",
+          "message": "Imagem ainda não cadastrada.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_origin",
+          "message": "Origem não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_gtin",
+          "message": "GTIN não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "missing_category",
+          "message": "Categoria do cadastro não informado.",
+          "severity": "info"
+        },
+        {
+          "type": "marketplace",
+          "message": "NCM 64029990 classificado pela família do produto e construção do calçado. Recomenda-se conferir com XML/NF de entrada antes da primeira emissão fiscal. | IMAGENS: link direto não localizado com segurança.",
+          "severity": "warning"
+        }
+      ]
+    }
+  ],
+  "independentReconciliation": "PASS: todos os campos de 453 linhas reconciliados com openpyxl"
+}

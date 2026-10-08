@@ -1,0 +1,2814 @@
+{
+  "originalWorkbook": "olist_cadastro_mestre_com_links_imagens.xlsx",
+  "enrichedWorkbook": "olist_cadastro_mestre_imagens_por_cor.xlsx",
+  "nonImageCellsChanged": 0,
+  "existingImageLinksChanged": 0,
+  "imageCellsAdded": 561,
+  "changes": [
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE20",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF20",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG20",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH20",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI20",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE21",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF21",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG21",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH21",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI21",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE22",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF22",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG22",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH22",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI22",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE23",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF23",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG23",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH23",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI23",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE24",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF24",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG24",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH24",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI24",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE25",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF25",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG25",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH25",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI25",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE26",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF26",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG26",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH26",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI26",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010707065791/7510715511289/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE28",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF28",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG28",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH28",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI28",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE29",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF29",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG29",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH29",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI29",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE30",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF30",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG30",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH30",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI30",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE31",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF31",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG31",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH31",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI31",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE32",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF32",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG32",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH32",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI32",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE33",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF33",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG33",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH33",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI33",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE34",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_1_20260511103243_4655df283183.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF34",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_2_20260511103243_f201b6cccd38.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG34",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_3_20260511103243_c19ef183fc79.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH34",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_4_20260511103243_dc05fc6386fa.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI34",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menina_molekinha_2580110_preto_5_20260511103243_0fd9eb112fa5.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE60",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE61",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE62",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE63",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE64",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE65",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE66",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE67",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010706786320/7510715044254/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE68",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE69",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE70",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE71",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE72",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE73",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE74",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE75",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE76",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE77",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705664263/7510712170980/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE79",
+      "url": "https://media.falabella.com/falabellaPE/21437606_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE80",
+      "url": "https://media.falabella.com/falabellaPE/21437606_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE81",
+      "url": "https://media.falabella.com/falabellaPE/21437606_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE82",
+      "url": "https://media.falabella.com/falabellaPE/21437606_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE83",
+      "url": "https://media.falabella.com/falabellaPE/21437606_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE84",
+      "url": "https://media.falabella.com/falabellaPE/21437606_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE85",
+      "url": "https://media.falabella.com/falabellaPE/21437606_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE86",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE87",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE88",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE89",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE90",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE91",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE92",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE93",
+      "url": "https://media.falabella.com/falabellaPE/21437620_1/public"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE106",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF106",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG106",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH106",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI106",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE107",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF107",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG107",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH107",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI107",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE108",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF108",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG108",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH108",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI108",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE109",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF109",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG109",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH109",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI109",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE110",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF110",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG110",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH110",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI110",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE111",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF111",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG111",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH111",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI111",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE112",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF112",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG112",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH112",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI112",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE113",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF113",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG113",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH113",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI113",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE114",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF114",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG114",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH114",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI114",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE115",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_1_20251121162850_92d887b4d6c6.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF115",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_2_20251121162850_75c6dd971c88.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG115",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_3_20251121162850_b6dee73282be.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH115",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_4_20251121162850_d2a5405de83a.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI115",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/chinelo_infantil_menina_molekinha_2357103_off_wh_5_20251121162850_936837385854.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE116",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF116",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG116",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH116",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI116",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE117",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF117",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG117",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH117",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI117",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE118",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF118",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG118",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH118",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI118",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE119",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF119",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG119",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH119",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI119",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE120",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF120",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG120",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH120",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI120",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE121",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF121",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG121",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH121",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI121",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6100/7010704869090/7510710250510/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE133",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/chinelo_infantil_menino_slide_molekinho_2417_100_12835_variacao_128147_1_0dc488514d68608ec2ede2ba2f9f97b4.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE134",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/chinelo_infantil_menino_slide_molekinho_2417_100_12835_variacao_128147_1_0dc488514d68608ec2ede2ba2f9f97b4.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE135",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/chinelo_infantil_menino_slide_molekinho_2417_100_12835_variacao_128147_1_0dc488514d68608ec2ede2ba2f9f97b4.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE136",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/chinelo_infantil_menino_slide_molekinho_2417_100_12835_variacao_128147_1_0dc488514d68608ec2ede2ba2f9f97b4.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE137",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/chinelo_infantil_menino_slide_molekinho_2417_100_12835_variacao_128147_1_0dc488514d68608ec2ede2ba2f9f97b4.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE138",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF138",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG138",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH138",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE139",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF139",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG139",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH139",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE140",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF140",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG140",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH140",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE141",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF141",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG141",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH141",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE142",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF142",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG142",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH142",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6839/7010706613574/7510714276812/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE144",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF144",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE145",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF145",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE146",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF146",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE147",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF147",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE148",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF148",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE149",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF149",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE150",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267584/999999992750149-Image-1.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF150",
+      "url": "https://grupooscar.vtexassets.com/arquivos/ids/11267590/999999992750149-Image-2.jpg?v=639233782927000000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE154",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707016274/7510715296379/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE155",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707016274/7510715296379/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE156",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707016274/7510715296379/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE157",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707016274/7510715296379/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE158",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707016274/7510715296379/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE164",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF164",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG164",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH164",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI164",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6916/7010707043984/7510715418166/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE190",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_1_20260420110225_1371fe7ab221.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF190",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_2_20260420110225_cad80f382100.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG190",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_3_20260420110225_c4e4ad2c0d95.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH190",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_4_20260420110225_3af532f8a87f.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI190",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_5_20260420110225_41cf8b73a1d9.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE191",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_1_20260420110225_1371fe7ab221.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF191",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_2_20260420110225_cad80f382100.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG191",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_3_20260420110225_c4e4ad2c0d95.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH191",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_4_20260420110225_3af532f8a87f.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI191",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_5_20260420110225_41cf8b73a1d9.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE192",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_1_20260420110225_1371fe7ab221.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF192",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_2_20260420110225_cad80f382100.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG192",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_3_20260420110225_c4e4ad2c0d95.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH192",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_4_20260420110225_3af532f8a87f.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI192",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_5_20260420110225_41cf8b73a1d9.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE193",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_1_20260420110225_1371fe7ab221.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF193",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_2_20260420110225_cad80f382100.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG193",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_3_20260420110225_c4e4ad2c0d95.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH193",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_4_20260420110225_3af532f8a87f.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI193",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_5_20260420110225_41cf8b73a1d9.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE194",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_1_20260420110225_1371fe7ab221.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF194",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_2_20260420110225_cad80f382100.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG194",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_3_20260420110225_c4e4ad2c0d95.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH194",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_4_20260420110225_3af532f8a87f.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI194",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_5_20260420110225_41cf8b73a1d9.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE195",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_1_20260420110225_1371fe7ab221.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF195",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_2_20260420110225_cad80f382100.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG195",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_3_20260420110225_c4e4ad2c0d95.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH195",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_4_20260420110225_3af532f8a87f.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI195",
+      "url": "https://images.tcdn.com.br/img/img_prod/1423002/tnis_infantil_menino_molekinho_2831113_preto_5_20260420110225_41cf8b73a1d9.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE196",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707043547/7510715416321/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE216",
+      "url": "https://static.zattini.com.br/produtos/sandalia-f-i-molekinha-ref:23052082/32/Q7L-31I5-032/Q7L-31I5-032_zoom1.jpg?ts=1789141632"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE226",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/3557/7010707019274/7510715309186/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE240",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/rosa-charm-1-e069cd885c9c7f47c517910540066413-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE241",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/rosa-charm-1-e069cd885c9c7f47c517910540066413-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE242",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/rosa-charm-1-e069cd885c9c7f47c517910540066413-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE243",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/rosa-charm-1-e069cd885c9c7f47c517910540066413-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE236",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/branco-off-1-34133c5ce00b51d2cd17910540122353-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE237",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/branco-off-1-34133c5ce00b51d2cd17910540122353-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE238",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/branco-off-1-34133c5ce00b51d2cd17910540122353-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE239",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/682/645/products/branco-off-1-34133c5ce00b51d2cd17910540122353-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE251",
+      "url": "https://images.tcdn.com.br/img/img_prod/972774/sandalia_infantil_masculina_molekinho_2636103_16429_116521_1_20250902154536_b91a709b7dc1.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE276",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/3-0a6827e4c9496f26b617894185686999-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE277",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/3-0a6827e4c9496f26b617894185686999-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE278",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/3-0a6827e4c9496f26b617894185686999-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE279",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/3-0a6827e4c9496f26b617894185686999-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE280",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/4-6d729b2a1ce3f591eb17894185640851-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE281",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/4-6d729b2a1ce3f591eb17894185640851-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE282",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/4-6d729b2a1ce3f591eb17894185640851-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE283",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/4-6d729b2a1ce3f591eb17894185640851-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE285",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF285",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG285",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH285",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI285",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE286",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF286",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG286",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH286",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI286",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE287",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF287",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG287",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH287",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI287",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE288",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF288",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG288",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH288",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI288",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE289",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF289",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG289",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH289",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI289",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/5050/7010705977170/7510712915972/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE316",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2749102-dc2b6025d8b88139e417889712123933-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE317",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2749102-dc2b6025d8b88139e417889712123933-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE318",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2749102-dc2b6025d8b88139e417889712123933-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE319",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2749102-dc2b6025d8b88139e417889712123933-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE321",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE322",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE323",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE324",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE325",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE326",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE327",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2444/7010705709944/7510712318352/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE329",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706666014/7510714404149/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE330",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706666014/7510714404149/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE331",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706666014/7510714404149/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE332",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706666014/7510714404149/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE333",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706666014/7510714404149/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE334",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706666014/7510714404149/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE335",
+      "url": "https://acdn-us.mitiendanube.com/stores/005/795/523/products/1-06a60e5b047e11cd4b17842345094852-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE336",
+      "url": "https://acdn-us.mitiendanube.com/stores/005/795/523/products/1-06a60e5b047e11cd4b17842345094852-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE337",
+      "url": "https://acdn-us.mitiendanube.com/stores/005/795/523/products/1-06a60e5b047e11cd4b17842345094852-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE338",
+      "url": "https://acdn-us.mitiendanube.com/stores/005/795/523/products/1-06a60e5b047e11cd4b17842345094852-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE339",
+      "url": "https://acdn-us.mitiendanube.com/stores/005/795/523/products/1-06a60e5b047e11cd4b17842345094852-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE340",
+      "url": "https://acdn-us.mitiendanube.com/stores/005/795/523/products/1-06a60e5b047e11cd4b17842345094852-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE358",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706959596/7510715093319/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE359",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706959596/7510715093319/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE360",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706959596/7510715093319/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE361",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706959596/7510715093319/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE362",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706959596/7510715093319/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE363",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/2575/7010706959596/7510715093319/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE370",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/709/418/products/0d4446a8-a581-42dc-bc40-d0ade50196b3-de180987f853b41f2317549474941848-480-0.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE371",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/709/418/products/0d4446a8-a581-42dc-bc40-d0ade50196b3-de180987f853b41f2317549474941848-480-0.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE372",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/709/418/products/0d4446a8-a581-42dc-bc40-d0ade50196b3-de180987f853b41f2317549474941848-480-0.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE373",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/709/418/products/0d4446a8-a581-42dc-bc40-d0ade50196b3-de180987f853b41f2317549474941848-480-0.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE374",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/709/418/products/0d4446a8-a581-42dc-bc40-d0ade50196b3-de180987f853b41f2317549474941848-480-0.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE384",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom1.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF384",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom2.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG384",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom3.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH384",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom4.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI384",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom5.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE385",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom1.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF385",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom2.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG385",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom3.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH385",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom4.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI385",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom5.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE386",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom1.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF386",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom2.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG386",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom3.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH386",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom4.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI386",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom5.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE387",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom1.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF387",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom2.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG387",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom3.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH387",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom4.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI387",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom5.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE388",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom1.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF388",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom2.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG388",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom3.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH388",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom4.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI388",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom5.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE389",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom1.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF389",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom2.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG389",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom3.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH389",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom4.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI389",
+      "url": "https://static.zattini.com.br/produtos/tenis-molekinho-2631110-elastico-slip-on-fecho-de-contato/72/AMM-5436-072/AMM-5436-072_zoom5.jpg?ts=1780415936"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE398",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE399",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE400",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE401",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE402",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE403",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE404",
+      "url": "https://dcdn-us.mitiendanube.com/stores/007/310/709/products/2121101-6-714080581f192e0ecd17894752225988-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE420",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE421",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE422",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE423",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE424",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE425",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE426",
+      "url": "https://acdn-us.mitiendanube.com/stores/004/091/966/products/7c86906b50fa292186d32fae8a781054-c1ad04ad708a29c6de17877951675477-1024-1024.webp"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE428",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/sandalia_molekinha_2743100_21691_215689_1_20251006154809_fd4c4a0ce873.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE429",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/sandalia_molekinha_2743100_21691_215689_1_20251006154809_fd4c4a0ce873.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE430",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/sandalia_molekinha_2743100_21691_215689_1_20251006154809_fd4c4a0ce873.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE431",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/sandalia_molekinha_2743100_21691_215689_1_20251006154809_fd4c4a0ce873.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE432",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/sandalia_molekinha_2743100_21691_215689_1_20251006154809_fd4c4a0ce873.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE433",
+      "url": "https://images.tcdn.com.br/img/img_prod/1043290/sandalia_molekinha_2743100_21691_215689_1_20251006154809_fd4c4a0ce873.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE123",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE124",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE125",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE126",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE127",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE128",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE129",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE130",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE131",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2861-216-24995-78651.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE300",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE301",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE302",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE303",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE304",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE305",
+      "url": "https://s3-sa-east-1.amazonaws.com/imagens.catalogobeirario.com.br/grandes/2609-233-30610-33300.jpg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE10",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE11",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE12",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE13",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE14",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE15",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE16",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE17",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE18",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE19",
+      "url": "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE376",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF376",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG376",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH376",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI376",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE377",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF377",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG377",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH377",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI377",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE378",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF378",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG378",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH378",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI378",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE379",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF379",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG379",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH379",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI379",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE380",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF380",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG380",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH380",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI380",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE381",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF381",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG381",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH381",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI381",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE382",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF382",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG382",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH382",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI382",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE307",
+      "url": "https://images.tcdn.com.br/img/img_prod/1445958/babuche_infantil_menina_molekinha_2749300_1_20261001171100_ede2f578ebb4.png"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE308",
+      "url": "https://images.tcdn.com.br/img/img_prod/1445958/babuche_infantil_menina_molekinha_2749300_1_20261001171100_ede2f578ebb4.png"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE309",
+      "url": "https://images.tcdn.com.br/img/img_prod/1445958/babuche_infantil_menina_molekinha_2749300_1_20261001171100_ede2f578ebb4.png"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE310",
+      "url": "https://images.tcdn.com.br/img/img_prod/1445958/babuche_infantil_menina_molekinha_2749300_1_20261001171100_ede2f578ebb4.png"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE35",
+      "url": "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE36",
+      "url": "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE37",
+      "url": "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE38",
+      "url": "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE39",
+      "url": "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE40",
+      "url": "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE181",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF181",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG181",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH181",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE182",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF182",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG182",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH182",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE183",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF183",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG183",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH183",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE184",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF184",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG184",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH184",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE185",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF185",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG185",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH185",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE186",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF186",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG186",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH186",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE187",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF187",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG187",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH187",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE188",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF188",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG188",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH188",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE189",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF189",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG189",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH189",
+      "url": "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE342",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF342",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE343",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF343",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE344",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF344",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE345",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF345",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE346",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF346",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE347",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF347",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE151",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-infantil-molekinha-menina-casual-original-2750103-cor-dourado-branco-offtamanho-20/simplespassocalcados/2750103douradobrancooff20/2adedc0dd31c5588bfb9f4650561879c.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE152",
+      "url": "https://a-static.mlcdn.com.br/420x420/tenis-infantil-molekinha-menina-casual-original-2750103-cor-dourado-branco-offtamanho-20/simplespassocalcados/2750103douradobrancooff20/2adedc0dd31c5588bfb9f4650561879c.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE445",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF445",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG445",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH445",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI445",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE446",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF446",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG446",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH446",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI446",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE447",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF447",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG447",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH447",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI447",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE448",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF448",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG448",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH448",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI448",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE449",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF449",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG449",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH449",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI449",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE450",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF450",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG450",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH450",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI450",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE451",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF451",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG451",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH451",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI451",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE452",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF452",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG452",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH452",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI452",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE453",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF453",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG453",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH453",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI453",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AE454",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AF454",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/1.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AG454",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/2.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AH454",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/3.jpeg"
+    },
+    {
+      "sheet": "Importar_Olist",
+      "cell": "AI454",
+      "url": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/4.jpeg"
+    }
+  ]
+}

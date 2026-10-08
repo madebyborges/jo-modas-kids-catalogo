@@ -1,0 +1,8 @@
+import { useState } from 'react';
+import { useReviews } from '../hooks/useReviews';
+import { readReviewerName, storeReviewerName } from '../utils/reviewerPreferences';
+export function SettingsPage(){
+ const {ready,loading,refresh}=useReviews();const [name,setName]=useState(readReviewerName()||'Visitante');const [message,setMessage]=useState('');const [failed,setFailed]=useState(false);
+ function save(e:React.FormEvent){e.preventDefault();setFailed(false);try{storeReviewerName(name.trim());setMessage('Preferência salva.');}catch{setFailed(true);setMessage('Não foi possível salvar a preferência neste navegador.');}}
+ return <><div className="page-heading"><div><h1>Configurações</h1><p>Ajustes simples para sua conferência, sem login.</p></div></div><section className="panel settings-panel"><h2>Identificação na conferência</h2><p className="muted">Este nome será usado nas próximas revisões feitas neste navegador.</p><form onSubmit={save}><label>Nome na conferência<input required maxLength={160} value={name} onChange={e=>{setName(e.target.value);setMessage('');}} autoComplete="name"/></label><button className="primary">Salvar preferência</button>{message&&<p role={failed?'alert':'status'}>{message}</p>}</form></section><section className="panel settings-panel"><h2>Conferência sem login</h2><p>Abra o catálogo e marque os produtos como corretos ou solicite uma correção. Não é necessário criar conta ou informar senha.</p><p role="status">{loading?'Preparando conferência…':ready?'Conferência disponível.':'Conferência indisponível no momento. O catálogo continua disponível.'}</p>{!ready&&<button disabled={loading} onClick={()=>void refresh().catch(()=>{})}>Tentar novamente</button>}</section></>;
+}

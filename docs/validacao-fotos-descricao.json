@@ -1,0 +1,19 @@
+{
+  "newColorAssociations": 1,
+  "newImages": 5,
+  "totalModels": 46,
+  "modelsWithDisplayablePhotos": 36,
+  "modelsWithoutDisplayablePhotos": 10,
+  "namedColorsWithPhotos": 38,
+  "pendingColors": 14,
+  "checks": [
+    {
+      "reference": "2305.2081",
+      "color": "Ouro Rosado",
+      "source": "https://imgmarketplace.lojasrenner.com.br/20001/4351/7010707106031/7510715657034/0.jpeg",
+      "loaded": true
+    }
+  ],
+  "failedImageUrls": [],
+  "pageErrors": []
+}

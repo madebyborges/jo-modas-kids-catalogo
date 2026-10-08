@@ -1,0 +1,132 @@
+{
+  "fiscal": [
+    {
+      "Configuração": "Regime tributário",
+      "Valor": "MEI / SIMEI",
+      "Onde aplicar": "Cadastro da empresa no ERP",
+      "Observação": "Jo Modas Kids enquadrada como MEI e optante pelo Simples Nacional.",
+      "Fonte": "Documentos fiscais/cadastrais enviados pelo usuário"
+    },
+    {
+      "Configuração": "CRT",
+      "Valor": "4",
+      "Onde aplicar": "Configuração fiscal da empresa",
+      "Observação": "Simples Nacional - Microempreendedor Individual - MEI.",
+      "Fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=kIiniiSkpKc%3D"
+    },
+    {
+      "Configuração": "Natureza da operação",
+      "Valor": "Venda de mercadoria adquirida ou recebida de terceiros",
+      "Onde aplicar": "Configurações > Notas fiscais > Naturezas de operação",
+      "Observação": "Regra de saída para os calçados comprados para revenda.",
+      "Fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=kIiniiSkpKc%3D"
+    },
+    {
+      "Configuração": "CFOP no Olist",
+      "Valor": "?.102",
+      "Onde aplicar": "Natureza de operação > Simples / ICMS",
+      "Observação": "O coringa permite ao Olist usar 5.102 para SP e 6.102 para outros estados.",
+      "Fonte": "https://ajuda.olist.com/pt_BR/duvidas/onde-cadastrar-o-cfop-na-natureza-de-operacao"
+    },
+    {
+      "Configuração": "CFOP venda dentro de SP",
+      "Valor": "5.102",
+      "Onde aplicar": "Gerado pela regra ?.102",
+      "Observação": "Venda interna de mercadoria adquirida ou recebida de terceiros por MEI.",
+      "Fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=kIiniiSkpKc%3D"
+    },
+    {
+      "Configuração": "CFOP venda para outro estado",
+      "Valor": "6.102",
+      "Onde aplicar": "Gerado pela regra ?.102",
+      "Observação": "Venda interestadual de mercadoria adquirida ou recebida de terceiros por MEI.",
+      "Fonte": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=kIiniiSkpKc%3D"
+    },
+    {
+      "Configuração": "NCM predominante",
+      "Valor": "64029990",
+      "Onde aplicar": "Cadastro dos produtos",
+      "Observação": "Outros calçados com parte superior de borracha ou plástico que não cobrem o tornozelo.",
+      "Fonte": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2021-018"
+    },
+    {
+      "Configuração": "NCM 2609.131",
+      "Valor": "64041900",
+      "Onde aplicar": "Cadastro do produto",
+      "Observação": "Referência localizada com NCM 64041900; corresponde a calçado de matéria têxtil com sola de borracha/plástico.",
+      "Fonte": "https://www.lojasrenner.com.br/p/tenis-running-infantil-slip-on-molekinho-azul-e-cinza/-/A-7010705977170-br.lr"
+    },
+    {
+      "Configuração": "CFOP na planilha de produtos",
+      "Valor": "Não adicionar coluna",
+      "Onde aplicar": "Manter layout oficial do importador",
+      "Observação": "O CFOP é configurado na Natureza de operação do ERP, não como coluna do cadastro do produto.",
+      "Fonte": "https://ajuda.olist.com/pt_BR/duvidas/onde-cadastrar-o-cfop-na-natureza-de-operacao"
+    },
+    {
+      "Configuração": "Origem dos produtos",
+      "Valor": "PENDENTE",
+      "Onde aplicar": "Cadastro dos produtos",
+      "Observação": "A Origem não foi preenchida nesta etapa. Ela deve ser confirmada por referência, preferencialmente pelo XML/NF de entrada.",
+      "Fonte": "https://ajuda.olist.com/primeiros-passos-para-emitir-notas-fiscais/natureza-de-operacao-de-saida-de-mercadorias"
+    }
+  ],
+  "notes": [
+    {
+      "title": "SITUAÇÃO",
+      "text": "Todos os produtos foram deixados como Inativo propositalmente para evitar publicação acidental antes de imagens, GTIN/fiscal e frete."
+    },
+    {
+      "title": "PAI E FILHO",
+      "text": "Produto pai usa Tipo do produto = V. Filhos usam Tipo = S e repetem o SKU do pai na coluna Código do pai."
+    },
+    {
+      "title": "VARIAÇÕES",
+      "text": "Formato Olist: Cor:valor||Tamanho:valor. Quando a cor não foi informada, a variação usa apenas Tamanho."
+    },
+    {
+      "title": "MERCADO LIVRE",
+      "text": "Após o ERP, ainda é necessário relacionar categoria, preencher ficha técnica/atributos e vincular tabela de medidas no fluxo de anúncios."
+    },
+    {
+      "title": "SHOPEE",
+      "text": "Peso e dimensões da embalagem precisam estar preenchidos antes do envio de anúncios."
+    },
+    {
+      "title": "FISCAL",
+      "text": "NCM e Origem ficaram vazios porque precisam ser confirmados com dados fiscais corretos do fornecedor."
+    },
+    {
+      "title": "IMAGENS",
+      "text": "Campos de imagem ficaram vazios nesta versão. Olist aceita URL direta; não deve ser usada URL de página de produto."
+    },
+    {
+      "title": "ALERTAS",
+      "text": "2580.11 precisa confirmar a referência. 2656.100 Azul Marinho contém 25/36 e precisa confirmar se seria 25/26."
+    },
+    {
+      "title": "NCM",
+      "text": "Os NCMs foram preenchidos no cadastro mestre. Casos com classificação provisória estão indicados na aba Revisao_Marketplaces."
+    },
+    {
+      "title": "CFOP",
+      "text": "Não foi criada coluna de CFOP no arquivo de produtos. Configure a natureza de operação de saída no Olist com ?.102, que resulta em 5.102 dentro de SP e 6.102 fora de SP."
+    },
+    {
+      "title": "ORIGEM",
+      "text": "Permanece pendente. Não preencher 0 ou 5 em massa sem confirmar a origem de cada referência na NF/XML de entrada."
+    },
+    {
+      "title": "IMAGENS",
+      "text": "Os links diretos confirmados foram adicionados aos produtos pai nos campos URL imagem externa 1 a 10."
+    },
+    {
+      "title": "LINKS CONSOLIDADOS",
+      "text": "Na aba Revisao_Marketplaces, a coluna J reúne todas as imagens do produto em uma única célula, separadas por vírgula."
+    },
+    {
+      "title": "VARIAÇÕES",
+      "text": "As linhas filhas não receberam imagens automaticamente para evitar vincular uma foto de cor/modelo incorreto à variação."
+    }
+  ]
+}

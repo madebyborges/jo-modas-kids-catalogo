@@ -1,0 +1,171 @@
+{
+  "searchedAt": "2026-10-08",
+  "allMissingColorsSearched": true,
+  "confirmed": [
+    {
+      "reference": "25006.101",
+      "color": "Dourado",
+      "sourceColor": "Dourado",
+      "sourceUrl": "https://www.seralle.com.br/tenis-casual-infantil-molekinha-dourado-82890/p",
+      "imageUrls": [
+        "https://lojaseralle.vtexassets.com/arquivos/ids/966146/82890_1.jpg?v=639268268285870000"
+      ]
+    },
+    {
+      "reference": "2421.116",
+      "color": "Preto e Branco",
+      "sourceColor": "Preto e Branco",
+      "sourceUrl": "https://www.lojasrenner.com.br/p/chinelo-slide-molekinho-infantil-com-velcro-preto/-/A-7010705849084-br.lr",
+      "imageUrls": [
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/0.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/1.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/2.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/3.jpeg",
+        "https://imgmarketplace.lojasrenner.com.br/20001/6206/7010705849084/7510712652889/4.jpeg"
+      ]
+    },
+    {
+      "reference": "2749.300",
+      "color": "Mult Color",
+      "sourceColor": "Mult Color",
+      "sourceUrl": "https://www.feiradecalcados.com/molekinha-2749-300-31775-multi",
+      "imageUrls": [
+        "https://images.tcdn.com.br/img/img_prod/1445958/babuche_infantil_menina_molekinha_2749300_1_20261001171100_ede2f578ebb4.png"
+      ]
+    },
+    {
+      "reference": "2580.110",
+      "color": "Branco/Prata/Pink",
+      "sourceColor": "Branco/Prata/Pink",
+      "sourceUrl": "https://www.magazineluiza.com.br/molekinha-tenis-esportivo-infantil-ref-2580-110/p/gj6fdd2650/es/osnr/?seller_id=casavera",
+      "imageUrls": [
+        "https://a-static.mlcdn.com.br/450pxx450px/molekinha-tenis-esportivo-infantil-ref-2580-110/casavera/7900350925561/bf311dd10760f1a3dd93fb0adf97bacb.jpeg"
+      ]
+    },
+    {
+      "reference": "2831.113",
+      "color": "Azul",
+      "sourceColor": "Azul",
+      "sourceUrl": "https://www.omarcalcados.com.br/tenis-molekinho-azul-infantil-menino-2831-113-29367-33300-190570/p",
+      "imageUrls": [
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387064-800-800?aspect=true&height=800&width=800",
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387065-800-800?aspect=true&height=800&width=800",
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387066-800-800?aspect=true&height=800&width=800",
+        "https://omarcalcados.vtexassets.com/arquivos/ids/387067-800-800?aspect=true&height=800&width=800"
+      ]
+    },
+    {
+      "reference": "2745.103",
+      "color": "Branco Capivara",
+      "sourceColor": "Branco / Avelã / Dourado, tema Capivara",
+      "sourceUrl": "https://www.magazineluiza.com.br/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/p/eh7hd63e7g/md/tnii/?seller_id=riosulcalcados02",
+      "imageUrls": [
+        "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/d499a85129bd636b8cb7d0f5ee0a8930.jpeg",
+        "https://a-static.mlcdn.com.br/420x420/tenis-molekinha-bebe-infantil-com-pelucia-capivara-branco/riosulcalcados02/234181/0f055b09d887b2adf6d1cd86c27ab74a.jpeg"
+      ]
+    },
+    {
+      "reference": "2750.103",
+      "color": "Dourado",
+      "sourceColor": "Dourado Branco Off",
+      "sourceUrl": "https://www.magazineluiza.com.br/tenis-infantil-molekinha-menina-casual-original-2750103-cor-dourado-branco-offtamanho-20/p/ec0e64ake7/es/osnr/?seller_id=simplespassocalcados",
+      "imageUrls": [
+        "https://a-static.mlcdn.com.br/420x420/tenis-infantil-molekinha-menina-casual-original-2750103-cor-dourado-branco-offtamanho-20/simplespassocalcados/2750103douradobrancooff20/2adedc0dd31c5588bfb9f4650561879c.jpeg"
+      ],
+      "method": "Foto principal do anúncio, separada da tabela de medidas; referência, cor e imagem real verificadas visualmente.",
+      "verifiedAt": "2026-10-08"
+    }
+  ],
+  "unresolved": [
+    {
+      "reference": "2580.11",
+      "color": "Preto",
+      "reason": "Fontes encontradas apresentam inconsistência entre 2580.11 e 2580.111; não substituir por 2580.110 ou 2580.111.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2580.11",
+      "color": "Branco Off",
+      "reason": "Fontes encontradas apresentam inconsistência entre 2580.11 e 2580.111; não substituir por 2580.110 ou 2580.111.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2417.205",
+      "color": "Azul",
+      "reason": "Fonte anuncia Azul, mas apresenta foto preta; precisa de foto azul confirmada.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2750.101",
+      "color": "Branco Off",
+      "reason": "Nenhuma foto com referência e cor confirmadas nas fontes pesquisadas; dados originais preservados",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2636.2010",
+      "color": "Azul Marinho/Branco",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2638.204",
+      "color": "Azul/Denim",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2623.11",
+      "color": "Preto/Marrom",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2749.101",
+      "color": "Bege",
+      "reason": "Fonte de referência exata encontrada, mas apresenta Preto; a cor da planilha é diferente.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2118.582",
+      "color": "Branco Off Glitter",
+      "reason": "Nova fonte exata mostra Branco e detalhes dourados, mas não confirma Branco Off Glitter. Não assumir equivalência de cores; foto preta original continua bloqueada.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2376.100",
+      "color": "Off",
+      "reason": "Nenhuma foto com referência e cor confirmadas nas fontes pesquisadas; dados originais preservados",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2121.101",
+      "color": "Rose",
+      "reason": "Fontes oferecem Rosa/Charm e Ouro/Rosado. Rose é ambíguo; não assumir uma delas.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2343.73",
+      "color": "Dourada",
+      "reason": "Não encontrada fonte com referência exata e cor compatível. Modelos de referência próxima foram rejeitados.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2743.106",
+      "color": "Dourada",
+      "reason": "Fonte exata encontrada, mas foto principal identificada como imagem gerada por ChatGPT; aguarda foto real confirmada.",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2342.107",
+      "color": "Branco Off",
+      "reason": "Nenhuma foto com referência e cor confirmadas nas fontes pesquisadas; dados originais preservados",
+      "lastSearchedAt": "2026-10-08"
+    },
+    {
+      "reference": "2305.2081",
+      "color": "Ouro Rosado",
+      "reason": "Nenhuma foto com referência e cor confirmadas nas fontes pesquisadas; dados originais preservados",
+      "lastSearchedAt": "2026-10-08"
+    }
+  ]
+}
