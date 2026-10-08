@@ -128,3 +128,12 @@ Veja `docs/IMAGENS_POR_COR.md`, `docs/enriquecimento-imagens.json` e `docs/verif
 
 
 A revisão de 08/10/2026 bloqueou o fallback de fotos gerais incompatíveis, incluindo Bege com foto Rosa, Branco Capivara com foto de gatinho e Branco Off Glitter com foto Preto. O alerta `mismatched_image` explica as divergências. Veja `docs/REVISAO_FOTOS.md` e `data-source/image-audit.json`. Fotos compatíveis recuperadas da base: 2861.216 Preto c/ Marrom e 2609.233 Azul Marinho (somente a segunda foto).
+
+## Catálogo publicado
+
+Acesse: https://madebyborges.github.io/jo-modas-kids-catalogo/
+
+Repositório: https://github.com/madebyborges/jo-modas-kids-catalogo
+
+As conferências são compartilhadas e salvas no Supabase, com sessão automática sem email/senha. As variáveis VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY estão configuradas nos secrets do GitHub Actions. Atualizações enviadas para main publicam automaticamente no Pages.
+

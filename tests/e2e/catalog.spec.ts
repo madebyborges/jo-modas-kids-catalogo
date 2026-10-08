@@ -3,14 +3,14 @@ import { readFile } from 'node:fs/promises';
 const catalogData=JSON.parse(await readFile('public/data/products.json','utf8'));
 import type { Review } from '../../src/types/review';
 const user={id:'00000000-0000-4000-8000-000000000001',aud:'authenticated',role:'authenticated',email:'revisora@example.test',app_metadata:{provider:'email'},user_metadata:{full_name:'Revisora de teste'},created_at:'2026-01-01T00:00:00Z'};
-async function mockSupabase(page:Page){
+async function mockSupabase(page:Page,sessionGate?:Promise<void>){
  let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
  await page.route('http://127.0.0.1:9999/**',async route=>{
   const req=route.request();const url=new URL(req.url());const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,OPTIONS'};
   if(req.method()==='OPTIONS'){await route.fulfill({status:204,headers});return;}
   if(fail){await route.fulfill({status:503,json:{message:'Teste de indisponibilidade'},headers});return;}
   let body:unknown={};
-  if(url.pathname.endsWith('/signup')){signups++;body={access_token:'test-access-token',token_type:'bearer',expires_in:3600,refresh_token:'test-refresh',user:visitor};}
+  if(url.pathname.endsWith('/signup')){await sessionGate;signups++;body={access_token:'test-access-token',token_type:'bearer',expires_in:3600,refresh_token:'test-refresh',user:visitor};}
   else if(url.pathname.endsWith('/token'))body={access_token:'test-access-token',token_type:'bearer',expires_in:3600,refresh_token:'test-refresh',user};
   else if(url.pathname.endsWith('/user'))body=visitor;
   else if(url.pathname.endsWith('/product_reviews')){
@@ -22,6 +22,14 @@ async function mockSupabase(page:Page){
  return {signupCount:()=>signups,outage:()=>{fail=true;},getRows:()=>rows,setComment:(comment:string)=>{rows=rows.map(r=>({...r,comment}));}};
 }
 async function prepareReviews(page:Page){await page.goto('/#/revisao');await expect(page.getByRole('heading',{name:'Dashboard de conferência'})).toBeVisible();await expect(page.getByText('Progresso da conferência',{exact:true})).toBeVisible();}
+
+test('Escolha de conferência durante carregamento é preservada ao iniciar sessão',async({page})=>{
+ let release!:()=>void;const gate=new Promise<void>(resolve=>{release=resolve;});const backend=await mockSupabase(page,gate);
+ await page.goto('/#/produto/25006.101');await page.locator('.product-review-actions').getByRole('button',{name:'Correto',exact:true}).click();
+ await expect(page.getByText('Preparando conferência…',{exact:true})).toBeVisible();release();
+ await expect(page.getByRole('button',{name:'Está correto',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.getByText('Revisão salva',{exact:true})).toBeVisible();expect(backend.getRows()[0].status).toBe('approved');
+});
 
 test('Catálogo real: agrupamento, busca, filtros, ordenação e alertas',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await mockSupabase(page);await page.goto('/');await expect(page.locator('.product-card')).toHaveCount(46);
