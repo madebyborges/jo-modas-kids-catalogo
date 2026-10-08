@@ -220,12 +220,14 @@ test('Status atualiza ao reabrir, trocar e salvar; detalhes técnicos ficam indi
  expect(errors).toEqual([]);
 });
 
-test('Consulta antiga não sobrescreve status salvo nem reinicia sessão ao salvar',async({page})=>{
+test('Atualização em segundo plano preserva escolha e comentário do formulário',async({page})=>{
  const backend=await mockSupabase(page);await prepareReviews(page);await page.goto('/#/produto/25006.101');await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label','Não revisado');
  await page.locator('.product-review-actions').getByRole('button',{name:'Correto',exact:true}).click();
+ await page.getByRole('dialog').getByRole('button',{name:'Precisa corrigir',exact:true}).click();await page.getByLabel(/O que precisa corrigir/).fill('Preservar comentário em edição');
  let release!:()=>void;const gate=new Promise<void>(resolve=>release=resolve);backend.delayNextRead(gate);
  await page.evaluate(()=>window.dispatchEvent(new Event('focus')));
  await expect(page.getByRole('button',{name:'Salvar conferência'})).toBeDisabled();
  release();await expect(page.getByRole('button',{name:'Salvar conferência'})).toBeEnabled();
- await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label','Correto');expect(backend.signupCount()).toBe(1);
+ await expect(page.getByLabel(/O que precisa corrigir/)).toHaveValue('Preservar comentário em edição');
+ await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label','Precisa corrigir');expect(backend.signupCount()).toBe(1);
 });
