@@ -5,7 +5,7 @@ import type { Product } from '../types/product';
 import type { ReviewStatus } from '../types/review';
 import { ReviewForm } from './ReviewForm';
 
-export function ReviewDialog({product,intent,onClose,onSaved}:{product:Product;intent:{status:ReviewStatus;serial:number};onClose:()=>void;onSaved:()=>void}) {
+export function ReviewDialog({product,intent,onClose,onSaved}:{product:Product;intent:{status:ReviewStatus;serial:number};onClose:()=>void;onSaved:(status:ReviewStatus)=>void}) {
  const dialog=useRef<HTMLDialogElement>(null);
  useEffect(()=>{
   const element=dialog.current;

@@ -209,7 +209,14 @@ test('Status atualiza ao reabrir, trocar e salvar; detalhes técnicos ficam indi
    if(status==='needs_correction')await page.getByLabel(/O que precisa corrigir/).fill('Observação da cliente');
    await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);
    await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label',label);expect(backend.getRows()[0].status).toBe(status);
-   await page.goto('/');await page.locator('.product-card').filter({hasText:'Ref. 25006.101'}).click();await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label',label);
+   const indicator=status==='approved'?'rgb(8, 122, 61)':status==='needs_correction'?'rgb(197, 130, 21)':'rgb(122, 133, 155)';
+   await expect(page.locator('.gallery-dots button[aria-pressed=true]')).toHaveCSS('background-color',indicator);
+   const success=status==='approved'?'Produto marcado como correto.':status==='needs_correction'?'Correção solicitada com sucesso.':'Produto marcado como não revisado.';
+   await expect(page.locator('.review-saved-message')).toContainText(success);await expect(page.locator('.review-saved-message')).toBeInViewport();
+   await page.screenshot({path:'../feedback-status-'+status+'-'+width+'.png'});
+   await page.getByRole('button',{name:'Fechar confirmação'}).click();await expect(page.locator('.review-saved-message')).toHaveCount(0);
+
+   await page.goto('/');const card=page.locator('.product-card').filter({hasText:'Ref. 25006.101'});await expect(card.locator('.pink-color-dot')).toHaveCSS('background-color',indicator);await card.click();await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label',label);await expect(page.locator('.gallery-dots button[aria-pressed=true]')).toHaveCSS('background-color',indicator);
   }
   backend.setStatus('needs_correction');backend.setComment('Atualizado em outro navegador');
   await page.goto('/');await page.locator('.product-card').filter({hasText:'Ref. 25006.101'}).click();await expect(page.locator('.current-review')).toContainText('Atualizado em outro navegador');
