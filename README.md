@@ -137,3 +137,10 @@ Repositório: https://github.com/madebyborges/jo-modas-kids-catalogo
 
 As conferências são compartilhadas e salvas no Supabase, com sessão automática sem email/senha. As variáveis VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY estão configuradas nos secrets do GitHub Actions. Atualizações enviadas para main publicam automaticamente no Pages.
 
+
+## Fotos e conferência no celular
+
+Use as setas da galeria ou deslize a foto para trocar de imagem. Toque ou clique na foto para ampliar. No visualizador, use +/-, a roda do mouse ou o gesto de pinça com dois dedos para zoom (até 400%); arraste a foto ampliada para ver detalhes. Esc ou o botão X fecha o visualizador. As fotos permanecem agrupadas pela cor selecionada.
+
+Os três botões de conferência abrem um modal no desktop e no mobile, preservando a posição da página. Ao salvar, o modal fecha e o status é atualizado; solicitar correção continua exigindo uma observação.
+

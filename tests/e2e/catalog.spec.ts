@@ -23,6 +23,54 @@ async function mockSupabase(page:Page,sessionGate?:Promise<void>){
 }
 async function prepareReviews(page:Page){await page.goto('/#/revisao');await expect(page.getByRole('heading',{name:'Dashboard de conferência'})).toBeVisible();await expect(page.getByText('Progresso da conferência',{exact:true})).toBeVisible();}
 
+test('Galeria desktop e mobile: setas, expansão, zoom, arraste, pinça e swipe',async({page})=>{
+ await mockSupabase(page);const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
+ const product=catalogData.products.find((p:{reference:string})=>p.reference==='2305.2081');const photos=product.colors[0].imageUrls;
+ const touch=await page.context().newCDPSession(page);
+ for(const width of [1440,390]){
+  await page.setViewportSize({width,height:900});await page.goto('/#/produto/2305.2081');const gallery=page.locator('.gallery-main');const photo=gallery.locator('img');
+  await expect(photo).toHaveAttribute('src',photos[0]);await gallery.getByRole('button',{name:'Próxima foto',exact:true}).click();await expect(photo).toHaveAttribute('src',photos[1]);
+  await gallery.getByRole('button',{name:'Foto anterior',exact:true}).click();await expect(photo).toHaveAttribute('src',photos[0]);
+  const box=(await gallery.boundingBox())!;const cy=box.y+box.height/2;
+  await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:box.x+box.width*.75,y:cy,id:1}]});
+  await touch.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:box.x+box.width*.25,y:cy,id:1}]});
+  await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await expect(photo).toHaveAttribute('src',photos[1]);await expect(page.getByRole('dialog')).toHaveCount(0);
+  const before=await page.evaluate(()=>scrollY);await gallery.getByRole('button',{name:'Ampliar imagem do produto'}).click();const viewer=page.getByRole('dialog',{name:'Visualizador de imagens'});await expect(viewer).toBeVisible();await expect(viewer.locator('img')).toHaveAttribute('src',photos[1]);
+  await viewer.getByRole('button',{name:'Aumentar zoom'}).click();await expect(viewer.getByLabel('Nível de zoom')).toHaveText('150%');
+  const stage=viewer.locator('.image-viewer-stage'),bounds=(await stage.boundingBox())!;const cx=bounds.x+bounds.width/2,y=bounds.y+bounds.height/2;
+  await page.mouse.move(cx,y);await page.mouse.down();await page.mouse.move(cx+35,y+20);await page.mouse.up();await expect(viewer.locator('.image-viewer-photo')).toHaveAttribute('style',/translate\(35px, 20px\)/);
+  await viewer.getByRole('button',{name:'Redefinir zoom'}).click();await expect(viewer.getByLabel('Nível de zoom')).toHaveText('100%');
+  await stage.dblclick();await expect(viewer.getByLabel('Nível de zoom')).toHaveText('200%');await viewer.getByRole('button',{name:'Redefinir zoom'}).click();
+  await page.mouse.move(cx,y);await page.mouse.wheel(0,-100);await expect(viewer.getByLabel('Nível de zoom')).toHaveText('120%');await viewer.getByRole('button',{name:'Redefinir zoom'}).click();
+  await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:cx-30,y,id:1},{x:cx+30,y,id:2}]});
+  await touch.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:cx-70,y,id:1},{x:cx+70,y,id:2}]});
+  await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await expect(viewer.getByLabel('Nível de zoom')).not.toHaveText('100%');
+  await viewer.getByRole('button',{name:'Próxima foto',exact:true}).click();await expect(viewer.locator('img')).toHaveAttribute('src',photos[2]);await expect(viewer.getByLabel('Nível de zoom')).toHaveText('100%');
+  await page.keyboard.press('ArrowLeft');await expect(viewer.locator('img')).toHaveAttribute('src',photos[1]);
+  await viewer.getByRole('button',{name:'Aumentar zoom'}).click();await page.screenshot({path:`../galeria-ampliada-${width}.png`});
+  await viewer.getByRole('button',{name:'Fechar imagem ampliada'}).click();await expect(viewer).toHaveCount(0);expect(await page.evaluate(()=>scrollY)).toBe(before);
+  await gallery.getByRole('button',{name:'Ampliar imagem do produto'}).click();await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);
+  await page.goto('/#/produto/2749.101');await expect(page.getByRole('button',{name:'Ampliar imagem do produto'})).toBeDisabled();await expect(page.getByRole('button',{name:'Próxima foto',exact:true})).toHaveCount(0);
+ }
+ expect(errors).toEqual([]);
+});
+
+test('Mobile: três status abrem popup sem âncora, comentário obrigatório e salvar fecha modal',async({page})=>{
+ const backend=await mockSupabase(page);await prepareReviews(page);
+ for(const width of [320,390]){
+  await page.setViewportSize({width,height:844});await page.goto('/#/produto/25006.101');
+  for(const label of ['Não revisado','Correto','Precisa corrigir']){
+   await page.evaluate(()=>window.scrollTo(0,500));const before=await page.evaluate(()=>scrollY);
+   await page.locator('.product-review-actions').getByRole('button',{name:label,exact:true}).click();const modal=page.getByRole('dialog',{name:'Conferência do produto'});await expect(modal).toBeVisible();expect(await page.evaluate(()=>scrollY)).toBe(before);
+   const bounds=(await modal.boundingBox())!;expect(bounds.x).toBeGreaterThanOrEqual(0);expect(bounds.x+bounds.width).toBeLessThanOrEqual(width);expect(bounds.y+bounds.height).toBeLessThanOrEqual(844);
+   if(label==='Precisa corrigir'){await modal.getByRole('button',{name:'Salvar conferência'}).click();await expect(modal).toBeVisible();expect(backend.getRows()).toHaveLength(0);await expect(modal.getByLabel(/O que precisa corrigir/)).toBeFocused();}
+   await page.getByRole('button',{name:'Fechar conferência'}).click();await expect(modal).toHaveCount(0);expect(await page.evaluate(()=>scrollY)).toBe(before);
+  }
+ }
+ await page.locator('.product-review-actions').getByRole('button',{name:'Precisa corrigir',exact:true}).click();await page.getByLabel(/O que precisa corrigir/).fill('Verificar descrição e fotografia.');await page.screenshot({path:'../conferencia-modal-mobile.png'});
+ await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.getByText('Revisão salva',{exact:true})).toBeVisible();expect(backend.getRows()[0].status).toBe('needs_correction');
+});
+
 test('Escolha de conferência durante carregamento é preservada ao iniciar sessão',async({page})=>{
  let release!:()=>void;const gate=new Promise<void>(resolve=>{release=resolve;});const backend=await mockSupabase(page,gate);
  await page.goto('/#/produto/25006.101');await page.locator('.product-review-actions').getByRole('button',{name:'Correto',exact:true}).click();
@@ -62,7 +110,7 @@ test('Mobile: chips, menu, filtros, tamanho e revisão com comentário (API simu
  await page.getByRole('button',{name:'Todos',exact:true}).click();await expect(page.locator('.product-card')).toHaveCount(46);
  await page.getByRole('button',{name:'Abrir menu'}).click();await page.getByRole('button',{name:'Filtros e ordenação'}).click();await page.getByLabel('Ordenar',{exact:true}).selectOption('stock_desc');await page.getByRole('button',{name:'Ver produtos'}).click();await expect(page.locator('.product-card').first()).toContainText('26 un.');
  await page.goto('/#/produto/25006.101');await page.getByRole('button',{name:/^Dourado /}).click();await page.getByRole('button',{name:/^Tamanho 26,/}).click();await expect(page.getByRole('button',{name:/^Tamanho 26,/})).toHaveAttribute('aria-pressed','true');
- await page.locator('.product-review-actions').getByRole('button',{name:'Precisa corrigir',exact:true}).click();await expect(page.locator('.review-panel')).toBeVisible();await page.getByRole('button',{name:'Salvar conferência'}).click();expect(backend.getRows()).toHaveLength(0);
+ const before=await page.evaluate(()=>scrollY);await page.locator('.product-review-actions').getByRole('button',{name:'Precisa corrigir',exact:true}).click();await expect(page.getByRole('dialog',{name:'Conferência do produto'})).toBeVisible();expect(await page.evaluate(()=>scrollY)).toBe(before);await expect(page.locator('.review-panel')).toBeVisible();await page.getByRole('button',{name:'Salvar conferência'}).click();expect(backend.getRows()).toHaveLength(0);
  await page.getByLabel(/O que precisa corrigir/).fill('Conferir fotografia do modelo.');await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.getByText('Revisão salva',{exact:true})).toBeVisible();expect(backend.getRows()[0].status).toBe('needs_correction');
  await page.getByRole('link',{name:'Voltar ao catálogo'}).click();await expect(page.locator('.product-card').filter({hasText:'25006.101'})).toContainText('Pendente');
 });
