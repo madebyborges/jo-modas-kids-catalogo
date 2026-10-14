@@ -152,3 +152,7 @@ Em **Conferência**, a seção **Status e observações** lista cada produto com
 
 Abrir um produto ou o dashboard consulta novamente o Supabase. Salvar atualiza imediatamente o estado compartilhado; respostas de consultas anteriores ao salvamento são descartadas. Os registros representam a última conferência de cada produto, não um histórico de todas as alterações.
 
+
+## Edição e envio de fotos
+
+Dentro do produto, use **Editar fotos**, escolha a cor e envie arquivos JPG, PNG ou WebP. Os ícones permitem substituir, escolher a principal e remover imagens; finalize com **Salvar fotos**. A alteração fica no Supabase e aparece para todos, sem login. Limites: 10 MB por foto e 12 por cor. Execute `supabase/product-photos.sql` após o schema em uma instalação nova. O projeto publicado já está configurado. Veja [documentação das fotos](docs/FOTOS_ENVIADAS.md).

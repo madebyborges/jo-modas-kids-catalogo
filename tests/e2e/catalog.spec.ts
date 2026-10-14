@@ -1,6 +1,7 @@
 import { test, expect, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 const catalogData=JSON.parse(await readFile('public/data/products.json','utf8'));
+import type { PhotoSet } from '../../src/services/productPhotos';
 import type { Review } from '../../src/types/review';
 
 test('Confirmação no topo, entrada de cima, barra decrescente e fechamento em 5 segundos',async({page})=>{
@@ -19,22 +20,26 @@ test('Confirmação no topo, entrada de cima, barra decrescente e fechamento em 
 });
 const user={id:'00000000-0000-4000-8000-000000000001',aud:'authenticated',role:'authenticated',email:'revisora@example.test',app_metadata:{provider:'email'},user_metadata:{full_name:'Revisora de teste'},created_at:'2026-01-01T00:00:00Z'};
 async function mockSupabase(page:Page,sessionGate?:Promise<void>){
- let readGate:Promise<void>|undefined;let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
+ let conflict=false;let photos:PhotoSet[]=[];let uploads=0;let readGate:Promise<void>|undefined;let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
  await page.route('http://127.0.0.1:9999/**',async route=>{
-  const req=route.request();const url=new URL(req.url());const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,OPTIONS'};
+  const req=route.request();const url=new URL(req.url());const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,PATCH,DELETE,OPTIONS'};
   if(req.method()==='OPTIONS'){await route.fulfill({status:204,headers});return;}
   if(fail){await route.fulfill({status:503,json:{message:'Teste de indisponibilidade'},headers});return;}
   let body:unknown={};
   if(url.pathname.endsWith('/signup')){await sessionGate;signups++;body={access_token:'test-access-token',token_type:'bearer',expires_in:3600,refresh_token:'test-refresh',user:visitor};}
   else if(url.pathname.endsWith('/token'))body={access_token:'test-access-token',token_type:'bearer',expires_in:3600,refresh_token:'test-refresh',user};
   else if(url.pathname.endsWith('/user'))body=visitor;
+  else if(url.pathname.includes('/storage/v1/')){if(req.method()==='POST'){uploads++;body={Key:'product-photos/test.jpg'};}else body=[];}
+  else if(url.pathname.endsWith('/product_photo_sets')){
+   if(req.method()==='PATCH'&&conflict){body=[];}else if(req.method()==='POST'||req.method()==='PATCH'){const r=req.postDataJSON() as PhotoSet;const previous=photos.find(x=>x.product_reference===r.product_reference&&x.color===r.color);r.version=(previous?.version??0)+1;photos=[...photos.filter(x=>x.product_reference!==r.product_reference||x.color!==r.color),r];body=r;}else body=photos;
+  }
   else if(url.pathname.endsWith('/product_reviews')){
    if(req.method()==='POST'){const r=req.postDataJSON() as Review;r.updated_at=new Date().toISOString();rows=[...rows.filter(x=>x.product_reference!==r.product_reference),r];body=r;}
    else {body=rows.map(r=>({...r}));const gate=readGate;readGate=undefined;await gate;}
   }
   await route.fulfill({status:200,json:body,headers});
  });
- return {delayNextRead:(gate:Promise<void>)=>{readGate=gate;},signupCount:()=>signups,outage:()=>{fail=true;},getRows:()=>rows,setStatus:(status:Review["status"])=>{rows=rows.map(r=>({...r,status}));},setComment:(comment:string)=>{rows=rows.map(r=>({...r,comment}));}};
+ return {recover:()=>{fail=false;},conflict:()=>{conflict=true;},photos:()=>photos,uploads:()=>uploads,delayNextRead:(gate:Promise<void>)=>{readGate=gate;},signupCount:()=>signups,outage:()=>{fail=true;},getRows:()=>rows,setStatus:(status:Review["status"])=>{rows=rows.map(r=>({...r,status}));},setComment:(comment:string)=>{rows=rows.map(r=>({...r,comment}));}};
 }
 async function prepareReviews(page:Page){await page.goto('/#/revisao');await expect(page.getByRole('heading',{name:'Dashboard de conferência'})).toBeVisible();await expect(page.getByText('Progresso da conferência',{exact:true})).toBeVisible();}
 
@@ -252,4 +257,32 @@ test('Atualização em segundo plano preserva escolha e comentário do formulár
  release();await expect(page.getByRole('button',{name:'Salvar conferência'})).toBeEnabled();
  await expect(page.getByLabel(/O que precisa corrigir/)).toHaveValue('Preservar comentário em edição');
  await page.getByRole('button',{name:'Salvar conferência'}).click();await expect(page.locator('.current-review .badge')).toHaveAttribute('aria-label','Precisa corrigir');expect(backend.signupCount()).toBe(1);
+});
+
+test('Fotos: upload, substituição, principal, remoção, cor isolada, persistência e validação',async({page})=>{
+ test.setTimeout(60000);const backend=await mockSupabase(page);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await prepareReviews(page);
+ const encoded=await page.evaluate(()=>{const canvas=document.createElement('canvas');canvas.width=32;canvas.height=32;const ctx=canvas.getContext('2d')!;ctx.fillStyle='#fff';ctx.fillRect(0,0,32,32);return canvas.toDataURL('image/png').split(',')[1];});const bytes=Buffer.from(encoded,'base64');
+ await page.route('http://127.0.0.1:9999/storage/v1/object/public/**',r=>r.fulfill({body:bytes,contentType:'image/png',headers:{'access-control-allow-origin':'*'}}));
+ for(const width of [1440,390]){
+  await page.setViewportSize({width,height:900});await page.goto('/#/produto/25006.101');await page.getByRole('button',{name:'Editar fotos',exact:true}).click();
+  const editor=page.getByRole('dialog',{name:'Editar fotos do produto'});await expect(editor).toBeVisible();await expect(editor.getByLabel('Fotos de qual cor?')).toBeEnabled();await expect(editor.locator('article')).not.toHaveCount(0);
+  await editor.getByLabel('Adicionar arquivos de fotos').setInputFiles({name:'arquivo.txt',mimeType:'text/plain',buffer:Buffer.from('invalid')});await expect(editor.getByRole('alert')).toContainText('JPG, PNG ou WebP');expect(backend.uploads()).toBe(width===1440?0:2);
+  const count=await editor.locator('article').count();await editor.getByLabel('Adicionar arquivos de fotos').setInputFiles({name:'foto.png',mimeType:'image/png',buffer:bytes});await expect(editor.locator('article')).toHaveCount(count+1);
+  await editor.getByRole('button',{name:'Tornar foto '+(count+1)+' principal',exact:true}).click();await expect(editor.locator('article').first().locator('img')).toHaveAttribute('src',/product-photos/);
+  const chooserPromise=page.waitForEvent('filechooser');await editor.getByRole('button',{name:'Substituir foto 1',exact:true}).click();await (await chooserPromise).setFiles({name:'nova.png',mimeType:'image/png',buffer:bytes});
+  await expect(editor.getByRole('button',{name:'Salvar fotos',exact:true})).toBeEnabled();const bounds=(await editor.boundingBox())!;expect(bounds.x).toBeGreaterThanOrEqual(0);expect(bounds.x+bounds.width).toBeLessThanOrEqual(width);await page.screenshot({path:'../editor-fotos-'+width+'.png'});
+  await editor.getByRole('button',{name:'Salvar fotos',exact:true}).click();await expect(editor).toHaveCount(0);await expect(page.getByText('Fotos atualizadas com sucesso.')).toBeVisible();await expect(page.locator('.gallery-main img')).toHaveAttribute('src',/product-photos/);expect(backend.photos()[0].color).toBe('Dourado');
+  await page.getByRole('button',{name:/^Prata /}).click();await expect(page.locator('.gallery-main img')).not.toHaveAttribute('src',/product-photos/);
+  await page.reload();await expect(page.locator('.gallery-main img')).toHaveAttribute('src',/product-photos/);
+ }
+ await page.goto('/#/produto/2749.101');await page.getByRole('button',{name:'Editar fotos',exact:true}).click();const editor=page.getByRole('dialog',{name:'Editar fotos do produto'});await expect(editor.getByText('Esta cor está sem foto.',{exact:false})).toBeVisible();await editor.getByLabel('Adicionar arquivos de fotos').setInputFiles({name:'bege.png',mimeType:'image/png',buffer:bytes});await expect(editor.getByRole('button',{name:'Salvar fotos',exact:true})).toBeEnabled();await editor.getByRole('button',{name:'Salvar fotos',exact:true}).click();await expect(page.locator('.gallery-main img')).toHaveAttribute('src',/product-photos/);
+ await page.getByRole('button',{name:'Editar fotos',exact:true}).click();await expect(page.getByRole('button',{name:'Remover foto 1',exact:true})).toBeEnabled();await page.getByRole('button',{name:'Remover foto 1',exact:true}).click();await page.getByRole('button',{name:'Salvar fotos',exact:true}).click();await expect(page.locator('.gallery-main img')).toHaveCount(0);
+ await page.getByRole('button',{name:'Editar fotos',exact:true}).click();await expect(page.getByText('Esta cor está sem foto.',{exact:false})).toBeVisible();await page.getByLabel('Adicionar arquivos de fotos').setInputFiles({name:'cancelada.png',mimeType:'image/png',buffer:bytes});await expect(page.getByRole('button',{name:'Salvar fotos',exact:true})).toBeEnabled();await page.getByRole('button',{name:'Cancelar',exact:true}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.locator('.gallery-main img')).toHaveCount(0);expect(errors).toEqual([]);
+});
+
+test('Falha de fotos mantém galeria e rascunho; conflito não sobrescreve outra edição',async({page})=>{
+ const backend=await mockSupabase(page);await prepareReviews(page);await page.goto('/#/produto/2305.2081');const original=await page.locator('.gallery-main img').getAttribute('src');
+ await page.getByRole('button',{name:'Editar fotos',exact:true}).click();await expect(page.getByRole('button',{name:'Remover foto 1',exact:true})).toBeEnabled();await page.getByRole('button',{name:'Remover foto 1',exact:true}).click();backend.outage();await page.getByRole('button',{name:'Salvar fotos',exact:true}).click();await expect(page.locator('.photo-editor [role=alert]')).toBeVisible();await expect(page.locator('.gallery-main img')).toHaveAttribute('src',original!);await expect(page.getByText('Fotos atualizadas com sucesso.')).toHaveCount(0);
+ backend.recover();await page.getByRole('button',{name:'Salvar fotos',exact:true}).click();await expect(page.locator('.photo-editor')).toHaveCount(0);await expect(page.getByText('Fotos atualizadas com sucesso.')).toBeVisible();
+ await page.getByRole('button',{name:'Editar fotos',exact:true}).click();await expect(page.getByRole('button',{name:'Remover foto 1',exact:true})).toBeEnabled();await page.getByRole('button',{name:'Remover foto 1',exact:true}).click();backend.conflict();await page.getByRole('button',{name:'Salvar fotos',exact:true}).click();await expect(page.locator('.photo-editor [role=alert]')).toContainText('outro navegador');await expect(page.locator('.photo-editor article')).toHaveCount(3);expect(backend.photos()[0].image_urls).toHaveLength(4);await page.getByRole('button',{name:'Cancelar',exact:true}).click();
 });
