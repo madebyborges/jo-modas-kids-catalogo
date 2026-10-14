@@ -16,7 +16,7 @@ export async function savePhotoSet(reference:string,color:string,urls:string[],p
  if(urls.length>PHOTO_LIMIT)throw Error(`São permitidas até ${PHOTO_LIMIT} fotos por cor.`);
  const session=await ensureReviewSession();const payload={product_reference:reference,color,image_urls:urls,updated_by:session.user.id};
  const query=previous?supabase.from('product_photo_sets').update(payload).eq('product_reference',reference).eq('color',color).eq('version',previous.version):supabase.from('product_photo_sets').insert(payload);
- const {data,error}=await query.select().maybeSingle();if(error?.code==='23505'||(!data&&!error))throw Error('As fotos foram alteradas em outro navegador. Feche e abra novamente o editor antes de salvar.');if(error)throw error;return data as PhotoSet;
+ const {data,error}=await query.select().maybeSingle();if(error?.code==='23505'||(!data&&!error))throw Error('As fotos foram alteradas em outro navegador. Feche e abra novamente o editor para tentar novamente.');if(error)throw error;return data as PhotoSet;
 }
 export async function uploadProductPhoto(file:File){
  validatePhotoFile(file);if(!supabase)throw Error('Envio de fotos indisponível.');
