@@ -1,6 +1,7 @@
 import { test, expect, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 const catalogData=JSON.parse(await readFile('public/data/products.json','utf8'));
+import type { SizeEdit } from '../../src/services/productSizes';
 import type { PhotoSet } from '../../src/services/productPhotos';
 import type { Review } from '../../src/types/review';
 
@@ -20,7 +21,7 @@ test('Confirmação no topo, entrada de cima, barra decrescente e fechamento em 
 });
 const user={id:'00000000-0000-4000-8000-000000000001',aud:'authenticated',role:'authenticated',email:'revisora@example.test',app_metadata:{provider:'email'},user_metadata:{full_name:'Revisora de teste'},created_at:'2026-01-01T00:00:00Z'};
 async function mockSupabase(page:Page,sessionGate?:Promise<void>){
- let conflict=false;let photos:PhotoSet[]=[];let uploads=0;let readGate:Promise<void>|undefined;let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
+ let sizes:SizeEdit[]=[];let conflict=false;let photos:PhotoSet[]=[];let uploads=0;let readGate:Promise<void>|undefined;let rows:Review[]=[];let fail=false;let signups=0;const visitor={...user,is_anonymous:true,email:undefined,user_metadata:{}};
  await page.route('http://127.0.0.1:9999/**',async route=>{
   const req=route.request();const url=new URL(req.url());const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,PATCH,DELETE,OPTIONS'};
   if(req.method()==='OPTIONS'){await route.fulfill({status:204,headers});return;}
@@ -30,6 +31,9 @@ async function mockSupabase(page:Page,sessionGate?:Promise<void>){
   else if(url.pathname.endsWith('/token'))body={access_token:'test-access-token',token_type:'bearer',expires_in:3600,refresh_token:'test-refresh',user};
   else if(url.pathname.endsWith('/user'))body=visitor;
   else if(url.pathname.includes('/storage/v1/')){if(req.method()==='POST'){uploads++;body={Key:'product-photos/test.jpg'};}else body=[];}
+  else if(url.pathname.endsWith('/product_variant_sizes')){
+   if(req.method()==='PATCH'&&conflict)body=[];else if(req.method()==='POST'||req.method()==='PATCH'){const r=req.postDataJSON() as SizeEdit;const previous=sizes.find(x=>x.sku===r.sku);r.version=(previous?.version??0)+1;sizes=[...sizes.filter(x=>x.sku!==r.sku),r];body=r;}else body=sizes;
+  }
   else if(url.pathname.endsWith('/product_photo_sets')){
    if(req.method()==='PATCH'&&conflict){body=[];}else if(req.method()==='POST'||req.method()==='PATCH'){const r=req.postDataJSON() as PhotoSet;const previous=photos.find(x=>x.product_reference===r.product_reference&&x.color===r.color);r.version=(previous?.version??0)+1;photos=[...photos.filter(x=>x.product_reference!==r.product_reference||x.color!==r.color),r];body=r;}else body=photos;
   }
@@ -39,7 +43,7 @@ async function mockSupabase(page:Page,sessionGate?:Promise<void>){
   }
   await route.fulfill({status:200,json:body,headers});
  });
- return {recover:()=>{fail=false;},conflict:()=>{conflict=true;},photos:()=>photos,uploads:()=>uploads,delayNextRead:(gate:Promise<void>)=>{readGate=gate;},signupCount:()=>signups,outage:()=>{fail=true;},getRows:()=>rows,setStatus:(status:Review["status"])=>{rows=rows.map(r=>({...r,status}));},setComment:(comment:string)=>{rows=rows.map(r=>({...r,comment}));}};
+ return {sizes:()=>sizes,recover:()=>{fail=false;conflict=false;},conflict:()=>{conflict=true;},photos:()=>photos,uploads:()=>uploads,delayNextRead:(gate:Promise<void>)=>{readGate=gate;},signupCount:()=>signups,outage:()=>{fail=true;},getRows:()=>rows,setStatus:(status:Review["status"])=>{rows=rows.map(r=>({...r,status}));},setComment:(comment:string)=>{rows=rows.map(r=>({...r,comment}));}};
 }
 async function prepareReviews(page:Page){await page.goto('/#/revisao');await expect(page.getByRole('heading',{name:'Dashboard de conferência'})).toBeVisible();await expect(page.getByText('Progresso da conferência',{exact:true})).toBeVisible();}
 
@@ -285,4 +289,23 @@ test('Falha no salvamento automático mantém foto; conflito não exibe sucesso'
  backend.outage();await editor.getByRole('button',{name:'Remover foto 1',exact:true}).click();await expect(editor.getByRole('alert')).toBeVisible();await expect(editor.locator('article')).toHaveCount(5);await expect(page.locator('.gallery-main img')).toHaveAttribute('src',original!);await expect(editor.locator('.review-success-toast')).toHaveCount(0);
  backend.recover();await editor.getByRole('button',{name:'Remover foto 1',exact:true}).click();await expect(editor.locator('.review-success-toast')).toContainText('Foto removida com sucesso.');await expect(editor.locator('article')).toHaveCount(4);
  backend.conflict();await editor.getByRole('button',{name:'Remover foto 1',exact:true}).click();await expect(editor.getByRole('alert')).toContainText('outro navegador');await expect(editor.locator('article')).toHaveCount(4);await expect(editor.locator('.review-success-toast')).toHaveCount(0);expect(backend.photos()[0].image_urls).toHaveLength(4);await editor.getByRole('button',{name:'Concluir',exact:true}).click();
+});
+
+test('Tamanhos: salvamento automático, duplos, duplicado, estoque e persistência desktop/mobile',async({page})=>{
+ const backend=await mockSupabase(page);await prepareReviews(page);const p=catalogData.products.find((p:any)=>p.reference==='2656.100');const c=p.colors.find((c:any)=>c.name==='Azul Marinho');const v=c.variants.find((v:any)=>v.size==='25/36');const duplicate=c.variants.find((item:any)=>item.sku!==v.sku).size;
+ for(const width of [1440,390]){
+  await page.setViewportSize({width,height:900});await page.goto('/#/produto/2656.100');await page.getByRole('button',{name:'Editar tamanhos',exact:true}).click();const editor=page.getByRole('dialog',{name:'Editar tamanhos do produto'});await expect(editor.getByLabel('Cor dos tamanhos')).toBeEnabled();await editor.getByLabel('Cor dos tamanhos').selectOption('Azul Marinho');
+  const input=editor.getByLabel('Tamanho do SKU '+v.sku);await input.fill('37/38');await input.press('Enter');await expect(editor.locator('.review-success-toast')).toContainText('Tamanho atualizado para 37/38 com sucesso.');await expect(page.locator('.variant').getByText('37/38',{exact:true})).toBeAttached();expect(backend.sizes().find(r=>r.sku===v.sku)?.size).toBe('37/38');
+  await input.fill(duplicate);await input.press('Enter');await expect(editor.getByRole('alert')).toContainText('já existe nesta cor');expect(backend.sizes().find(r=>r.sku===v.sku)?.size).toBe('37/38');
+  await input.fill('abc');await input.press('Enter');await expect(editor.getByRole('alert')).toContainText('26 ou 25/26');
+  await input.fill('39/40');await editor.getByRole('heading',{name:'Editar tamanhos',exact:true}).click();await expect(editor.locator('.review-success-toast')).toContainText('39/40');await expect(input).toHaveValue('39/40');await expect.poll(async()=>(await editor.locator('.review-success-toast').boundingBox())?.y??-100).toBeGreaterThan(14);await page.screenshot({path:'../editar-tamanhos-'+width+'.png'});
+  await editor.getByRole('button',{name:'Concluir',exact:true}).click();await expect(editor).toHaveCount(0);await expect(page.locator('.variant').getByText('39/40',{exact:true})).toBeVisible();await expect(page.getByText(/Tamanho 25\/36 precisa ser conferido/)).toHaveCount(0);
+  await page.reload();await page.getByRole('button',{name:/^Azul Marinho /}).click();await expect(page.getByRole('button',{name:'Tamanho 39/40, '+v.stock+' unidades'})).toBeVisible();
+ }
+});
+
+test('Tamanho: falha e conflito preservam valor salvo; concluir salva campo ainda focado',async({page})=>{
+ const backend=await mockSupabase(page);await prepareReviews(page);await page.goto('/#/produto/25006.101');await page.getByRole('button',{name:'Editar tamanhos',exact:true}).click();const editor=page.getByRole('dialog',{name:'Editar tamanhos do produto'});await expect(editor.getByLabel('Cor dos tamanhos')).toBeEnabled();const input=editor.locator('input').first();
+ backend.outage();await input.fill('41/42');await input.press('Enter');await expect(editor.getByRole('alert')).toBeVisible();await expect(editor.locator('.review-success-toast')).toHaveCount(0);expect(backend.sizes()).toHaveLength(0);
+ backend.recover();await input.press('Enter');await expect(editor.locator('.review-success-toast')).toContainText('41/42');backend.conflict();await input.fill('43/44');await input.press('Enter');await expect(editor.getByRole('alert')).toContainText('outro navegador');expect(backend.sizes()[0].size).toBe('41/42');backend.recover();await input.fill('45/46');await editor.getByRole('button',{name:'Concluir',exact:true}).click();await expect(editor).toHaveCount(0);expect(backend.sizes()[0].size).toBe('45/46');
 });

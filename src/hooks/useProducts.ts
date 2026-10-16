@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import { applySizeEdits, fetchSizeEdits, type SizeEdit } from '../services/productSizes';
 import { applyPhotoSets, fetchPhotoSets, type PhotoSet } from '../services/productPhotos';
 import type { Catalog, Company } from '../types/product';
 export function useProducts() {
@@ -9,6 +10,10 @@ export function useProducts() {
  const refreshPhotos=useCallback(async()=>{const request=++generation.current;try{const rows=await fetchPhotoSets();if(request===generation.current)setPhotoSets(rows);}catch{/* Keep the spreadsheet catalog available while photo storage is offline. */}},[]);
  useEffect(()=>{void refreshPhotos();const onFocus=()=>void refreshPhotos();window.addEventListener('focus',onFocus);return()=>window.removeEventListener('focus',onFocus);},[pathname,refreshPhotos]);
  const acceptPhotos=useCallback((set:PhotoSet)=>{generation.current++;setPhotoSets(old=>[...old.filter(s=>s.product_reference!==set.product_reference||s.color!==set.color),set]);},[]);
- const displayed=useMemo(()=>catalog?applyPhotoSets(catalog,photoSets):null,[catalog,photoSets]);
- return {catalog:displayed,company,error,acceptPhotos};
+ const [sizeEdits,setSizeEdits]=useState<SizeEdit[]>([]);const sizeGeneration=useRef(0);
+ const refreshSizes=useCallback(async()=>{const request=++sizeGeneration.current;try{const rows=await fetchSizeEdits();if(request===sizeGeneration.current)setSizeEdits(rows);}catch{/* The original catalog remains available offline. */}},[]);
+ useEffect(()=>{void refreshSizes();const onFocus=()=>void refreshSizes();window.addEventListener('focus',onFocus);return()=>window.removeEventListener('focus',onFocus);},[pathname,refreshSizes]);
+ const acceptSize=useCallback((row:SizeEdit)=>{sizeGeneration.current++;setSizeEdits(old=>[...old.filter(r=>r.sku!==row.sku),row]);},[]);
+ const displayed=useMemo(()=>catalog?applySizeEdits(applyPhotoSets(catalog,photoSets),sizeEdits):null,[catalog,photoSets,sizeEdits]);
+ return {catalog:displayed,company,error,acceptPhotos,acceptSize};
 }

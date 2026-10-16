@@ -156,3 +156,7 @@ Abrir um produto ou o dashboard consulta novamente o Supabase. Salvar atualiza i
 ## Edição e envio de fotos
 
 Dentro do produto, use **Editar fotos**, escolha a cor e envie arquivos JPG, PNG ou WebP. Os ícones permitem substituir, escolher a principal e remover imagens; cada ação é salva automaticamente, com confirmação no topo. Use **Concluir** para fechar o editor. A alteração fica no Supabase e aparece para todos, sem login. Limites: 10 MB por foto e 12 por cor. Execute `supabase/product-photos.sql` após o schema em uma instalação nova. O projeto publicado já está configurado. Veja [documentação das fotos](docs/FOTOS_ENVIADAS.md).
+
+## Edição de tamanhos
+
+Dentro do produto, use **Editar tamanhos**, escolha a cor e altere o tamanho da variação. Pressione **Enter** ou saia do campo para salvar automaticamente. **Concluir** também salva o campo ainda em edição antes de fechar. SKU, cor, preço e estoque não são alterados. Tamanhos duplos, como `25/26`, continuam sendo um único valor. Os ajustes compartilhados ficam no Supabase, na tabela `product_variant_sizes`; execute `supabase/product-sizes.sql` após o schema em uma instalação nova. A configuração do projeto publicado já foi aplicada.
