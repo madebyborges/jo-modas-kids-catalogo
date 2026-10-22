@@ -6,9 +6,9 @@ Implementação no projeto original:
 ## Uso
 
 1. Abra um produto e selecione uma cor.
-2. Na seção Tamanhos, use **+ Adicionar**. Preencha tamanho (por exemplo, `27/28`) e quantidade inicial. A cor já vem selecionada.
+2. Abra **Editar tamanhos**. No mesmo editor, use **+ Adicionar**. Preencha tamanho (por exemplo, `27/28`) e quantidade inicial. A cor já vem selecionada.
 3. Tente adicionar o mesmo tamanho na mesma cor: o formulário deve informar a duplicidade. A mesma numeração em outra cor é permitida.
-4. Toque em um tamanho para **Editar estoque** ou **Remover tamanho**.
+4. No mesmo editor, use **Estoque e remoção** no tamanho desejado para **Editar estoque** ou **Remover tamanho**. Tocar no tamanho na página continua sendo um atalho para essas ações.
 5. A remoção mostra explicitamente tamanho e cor; **Cancelar** preserva a variação, **Remover** salva a revisão.
 6. Recarregue a página: a mudança deve permanecer. Confira os totais da cor e do produto e expanda **Histórico dos tamanhos**.
 7. Na conferência, exporte CSV e JSON. CSV contém estoque, variações atuais e histórico; JSON inclui também variações estruturadas e registros de alterações com autor e data.
@@ -23,7 +23,7 @@ Implementação no projeto original:
 - A RPC `record_variation_change` usa `SECURITY INVOKER`. O trigger autentica, fixa autor/data e compara a última revisão esperada sob trava de transação para detectar concorrência. Não há `service_role` no frontend.
 - RLS mantém o acesso compartilhado da conferência existente: leitura pública e escrita por identidades do Supabase Auth, inclusive as sessões anônimas já utilizadas pelo projeto. Não foi introduzida exigência de email/senha nem isolamento por usuário que impediria a colaboração existente.
 - Clientes não têm permissão para editar ou apagar eventos antigos. A remoção é um evento, não um DELETE.
-- As correções antigas de nomenclatura continuam funcionando nas variações sem novos eventos. No editor antigo, variações já revisadas ficam bloqueadas para renomeação e explicam que estoque e remoção são feitos tocando no tamanho. Isso impede conflito entre o sistema antigo de renomeação e o histórico novo.
+- As correções antigas de nomenclatura continuam funcionando nas variações sem novos eventos. No editor antigo, variações já revisadas ficam bloqueadas para renomeação e oferecem estoque e remoção dentro do mesmo editor. Isso impede conflito entre o sistema antigo de renomeação e o histórico novo.
 - Histórico é carregado com paginação. Falha no carregamento não derruba o catálogo; mantém os últimos dados disponíveis na sessão, com aviso de somente leitura. Escritas só atualizam a interface após confirmação do servidor.
 - As exportações buscam as revisões de variações novamente antes de gerar o arquivo e cancelam em caso de falha.
 
@@ -54,7 +54,7 @@ Sem a migration, a nova edição permanece em somente leitura. O workflow existe
 - `src/services/variationChanges.ts`: tipos dos eventos, validação, leitura paginada, RPC, composição do catálogo e histórico.
 - `src/components/VariationDialog.tsx`: modal de inclusão, ações, estoque e confirmação de remoção.
 - `src/components/ProductVariants.tsx`: botão discreto e ação ao tocar no tamanho.
-- `src/components/ProductSizeEditor.tsx`: proteção de nomenclatura para variações já revisadas.
+- `src/components/ProductSizeEditor.tsx`: editor unificado com inclusão, correção de nome, estoque e remoção; proteção de nomenclatura para variações já revisadas.
 - `src/hooks/useProducts.ts`: carregamento, modo somente leitura e aceitação das revisões confirmadas.
 - `src/pages/ProductPage.tsx`: integração com cor selecionada, mensagens e histórico.
 - `src/pages/ReviewDashboardPage.tsx`: exportação com revisões atualizadas e dados estruturados.

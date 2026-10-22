@@ -9,3 +9,7 @@
 .variation-dialog{max-width:460px}.variation-dialog form{display:grid;gap:16px}.variation-dialog label{display:grid;gap:6px}.variation-dialog .photo-editor-body>button{margin:6px}.size-add{margin:8px 0 12px auto;display:block;font-size:14px}.variation-dialog input{width:100%;min-height:44px}
 
 .size-section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.size-section-heading .size-add{margin:0;white-space:nowrap}.size-section-heading h2{margin:0}
+
+.size-editor-heading{margin:18px 0 10px}.size-editor .size-edit-row{flex-wrap:wrap}.size-editor .size-manage{flex-basis:100%;justify-self:stretch;grid-column:1 / -1;margin-top:8px}
+
+.size-editor-heading{position:sticky;top:0;z-index:2;background:#fff;padding:10px 0}.size-editor-heading h3{margin:0;font-size:15px}
