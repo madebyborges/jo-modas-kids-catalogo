@@ -1,3 +1,4 @@
+import { applyVariationChanges, fetchVariationChanges, type VariationChange } from '../services/variationChanges';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { applySizeEdits, fetchSizeEdits, type SizeEdit } from '../services/productSizes';
@@ -14,6 +15,10 @@ export function useProducts() {
  const refreshSizes=useCallback(async()=>{const request=++sizeGeneration.current;try{const rows=await fetchSizeEdits();if(request===sizeGeneration.current)setSizeEdits(rows);}catch{/* The original catalog remains available offline. */}},[]);
  useEffect(()=>{void refreshSizes();const onFocus=()=>void refreshSizes();window.addEventListener('focus',onFocus);return()=>window.removeEventListener('focus',onFocus);},[pathname,refreshSizes]);
  const acceptSize=useCallback((row:SizeEdit)=>{sizeGeneration.current++;setSizeEdits(old=>[...old.filter(r=>r.sku!==row.sku),row]);},[]);
- const displayed=useMemo(()=>catalog?applySizeEdits(applyPhotoSets(catalog,photoSets),sizeEdits):null,[catalog,photoSets,sizeEdits]);
- return {catalog:displayed,company,error,acceptPhotos,acceptSize};
+ const [variationChanges,setVariationChanges]=useState<VariationChange[]>([]);const [variationsReady,setVariationsReady]=useState(false);const variationGeneration=useRef(0);
+ const refreshVariations=useCallback(async()=>{const request=++variationGeneration.current;try{const rows=await fetchVariationChanges();if(request===variationGeneration.current){setVariationChanges(rows);setVariationsReady(true);}}catch{if(request===variationGeneration.current)setVariationsReady(false);}},[]);
+ useEffect(()=>{void refreshVariations();const focus=()=>void refreshVariations();window.addEventListener("focus",focus);return()=>window.removeEventListener("focus",focus);},[pathname,refreshVariations]);
+ const acceptVariation=useCallback((row:VariationChange)=>{variationGeneration.current++;setVariationChanges(old=>[...old.filter(r=>r.id!==row.id),row]);},[]);
+ const displayed=useMemo(()=>catalog?applyVariationChanges(applySizeEdits(applyPhotoSets(catalog,photoSets),sizeEdits),variationChanges):null,[catalog,photoSets,sizeEdits,variationChanges]);
+ return {catalog:displayed,company,error,acceptPhotos,acceptSize,variationChanges,variationsReady,acceptVariation,refreshVariations};
 }

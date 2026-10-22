@@ -1,0 +1,27 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import type { Catalog } from '../src/types/product';
+import { applyVariationChanges, validateVariation, type VariationChange } from '../src/services/variationChanges';
+import { exportRows } from '../src/utils/csvExport';
+test('Overrides preservam catálogo, tamanho composto, cores e recalculam estoque e exportação',()=>{
+ const catalog=JSON.parse(readFileSync('public/data/products.json','utf8')) as Catalog;
+ const snapshot=JSON.stringify(catalog),p=catalog.products[0],c=p.colors[0],v=c.variants[0];
+ const make=(id:string,size:string,action:VariationChange['action'],stock:number,sku:string):VariationChange=>({id,product_reference:p.reference,parent_sku:p.parentSku,color:c.name,size,action,stock,variant_sku:sku,user_id:'test',created_at:'2026-10-22'});
+ const rows=[make('1','999/998','added',3,'manual:test'),make('2','999/998','updated',5,'manual:test'),make('3',v.size,'removed',v.stock,v.sku)];
+ const result=applyVariationChanges(catalog,rows),after=result.products[0];
+ assert.equal(JSON.stringify(catalog),snapshot);
+ assert.equal(after.totalStock,p.totalStock-v.stock+5);
+ assert.equal(after.colors[0].variants.find(v=>v.size==='999/998')?.stock,5);
+ assert.ok(!after.colors[0].variants.some(x=>x.sku===v.sku));
+ assert.deepEqual(after.colors.slice(1),p.colors.slice(1));
+ assert.deepEqual(applyVariationChanges(result,rows),result);
+ assert.match(exportRows(result.products,[])[0]['Variações'],/999\/998 \(5\)/);
+ assert.match(after.variationHistory![2],/Removeu tamanho/);
+ const readded=applyVariationChanges(catalog,[...rows,make('4',v.size,'added',2,'manual:new')]);
+ assert.equal(readded.products[0].totalStock,p.totalStock-v.stock+7);
+ assert.throws(()=>validateVariation(after,c.name,'999/998',1,'added'),/já existe/);
+ for(const stock of [-1,1.5,NaN,Infinity,2147483648])assert.throws(()=>validateVariation(p,c.name,'999',stock,'added'));
+ assert.doesNotThrow(()=>validateVariation(p,c.name,'999/998',0,'added'));
+ assert.throws(()=>validateVariation(p,'Cor ausente','999',1,'added'));
+});

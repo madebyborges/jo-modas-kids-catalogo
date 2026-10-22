@@ -1,7 +1,7 @@
 import type { Product } from '../types/product';
 import { statusLabels, type Review } from '../types/review';
 export function exportRows(products:Product[],reviews:Review[]) {
- const map=new Map(reviews.map(r=>[r.product_reference,r]));return products.map(p=>{const r=map.get(p.reference);return {'Referência':p.reference,'SKU pai':p.parentSku,'Nome':p.name,'Marca':p.brand,'Status':statusLabels[r?.status??'pending'],'Comentário':r?.comment??'','Revisor':r?.reviewer_name??'','Data da revisão':r?.reviewed_at??''};});
+ const map=new Map(reviews.map(r=>[r.product_reference,r]));return products.map(p=>{const r=map.get(p.reference);return {'Referência':p.reference,'SKU pai':p.parentSku,'Nome':p.name,'Marca':p.brand,'Estoque total':p.totalStock,'Variações':p.colors.flatMap(c=>c.variants.map(v=>`${c.name||'Sem cor'}: ${v.size} (${v.stock})`)).join(' | '),'Histórico de tamanhos':(p.variationHistory??[]).join(' | '),'Status':statusLabels[r?.status??'pending'],'Comentário':r?.comment??'','Revisor':r?.reviewer_name??'','Data da revisão':r?.reviewed_at??''};});
 }
 export function csvCell(value:unknown){let s=String(value??'');if(/^[\s]*[=+\-@\t\r]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';}
 export function toCSV(rows:ReturnType<typeof exportRows>){return '\uFEFF'+[Object.keys(rows[0]||{'Referência':'','SKU pai':'','Nome':'','Marca':'','Status':'','Comentário':'','Revisor':'','Data da revisão':''}).map(csvCell).join(';'),...rows.map(r=>Object.values(r).map(csvCell).join(';'))].join('\r\n');}

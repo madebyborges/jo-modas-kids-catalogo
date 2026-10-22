@@ -3,6 +3,7 @@ export interface DataWarning { type: string; message: string; severity: 'info' |
 export interface ProductVariant { sku: string; parentSku: string; size: string; color?: string; stock: number; price?: number; observations: string; imageUrls: string[]; source: SourceRow; sourceRow: number }
 export interface ProductColor { name: string; stock: number; variants: ProductVariant[]; imageUrls: string[] }
 export interface Product {
+ variationHistory?: string[];
  parentSku: string; reference: string; name: string; brand: string; category: string; suggestedCategory: string;
  price?: number; priceMax?: number; totalStock: number; description: string; complementaryDescription: string;
  ncm: string; origin: string; gtin: string; unit: string; status: string; productType: string; supplierCode: string;
