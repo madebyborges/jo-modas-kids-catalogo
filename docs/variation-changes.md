@@ -30,7 +30,7 @@ Implementação no projeto original:
 ## Migration e situação do banco
 
 Migration criada pelo Supabase CLI:
-`supabase/migrations/20261022141018_variation_changes.sql`.
+`supabase/migrations/20261022142533_variation_changes.sql`.
 
 Também há uma cópia SQL em `supabase/variation-changes.sql`. Execute **uma só** das cópias; elas representam a mesma migration.
 
@@ -60,7 +60,7 @@ Sem a migration, a nova edição permanece em somente leitura. O workflow existe
 - `src/pages/ReviewDashboardPage.tsx`: exportação com revisões atualizadas e dados estruturados.
 - `src/utils/csvExport.ts`: estoque, variações e histórico no CSV.
 - `src/types/product.ts`, `src/App.tsx`, `src/styles.css`: tipos, integração e estilos compatíveis com o layout existente.
-- `supabase/migrations/20261022141018_variation_changes.sql` e `supabase/variation-changes.sql`: schema, RPC e RLS.
+- `supabase/migrations/20261022142533_variation_changes.sql` e `supabase/variation-changes.sql`: schema, RPC e RLS.
 - `tests/variationChanges.test.ts`: composição, imutabilidade do catálogo, remoção, reinclusão, estoque, duplicados e exportação.
 - `tests/e2e/catalog.spec.ts`: backend simulado ampliado, novos fluxos e adaptação do teste antigo ao menu de tamanhos.
 
