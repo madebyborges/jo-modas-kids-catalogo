@@ -1,13 +1,15 @@
+import { TriangleAlert, Trash2, Pencil, Package } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { Product } from '../types/product';
 import { changeDescription, saveVariationChange, type VariationChange } from '../services/variationChanges';
 
-export function VariationDialog({product,color,size,changes,onSaved,onClose,onConflict}:{product:Product;color:string;size?:string;changes:VariationChange[];onSaved:(row:VariationChange,message:string)=>void;onClose:()=>void;onConflict:()=>Promise<void>}){
- const dialog=useRef<HTMLDialogElement>(null),pending=useRef(false);
+export function VariationDialog({product,color,size,changes,onSaved,onClose,onConflict,onRename}:{onRename?:()=>void;product:Product;color:string;size?:string;changes:VariationChange[];onSaved:(row:VariationChange,message:string)=>void;onClose:()=>void;onConflict:()=>Promise<void>}){
+ const dialog=useRef<HTMLDialogElement>(null),cancel=useRef<HTMLButtonElement>(null),pending=useRef(false);
  const [draft,setDraft]=useState(size??''),[stock,setStock]=useState(String(product.colors.find(c=>c.name===color)?.variants.find(v=>v.size===size)?.stock??0));
  const [mode,setMode]=useState<'actions'|'edit'|'remove'>(size?'actions':'edit'),[busy,setBusy]=useState(false),[error,setError]=useState('');
  useEffect(()=>{const previous=document.body.style.overflow;document.body.style.overflow='hidden';dialog.current?.showModal();return()=>{dialog.current?.close();document.body.style.overflow=previous;};},[]);
+ useEffect(()=>{if(mode==='remove')cancel.current?.focus();},[mode]);
  async function save(action:VariationChange['action']){
   if(pending.current)return;pending.current=true;setBusy(true);setError('');
   try{
@@ -18,11 +20,11 @@ export function VariationDialog({product,color,size,changes,onSaved,onClose,onCo
   }catch(e){setError(e instanceof Error?e.message:'Não foi possível salvar. Tente novamente.');void onConflict();}
   finally{pending.current=false;setBusy(false);}
  }
- return createPortal(<dialog ref={dialog} className="photo-editor variation-dialog" aria-label={size?`Tamanho ${size}`:'Adicionar tamanho'} onCancel={e=>{e.preventDefault();if(!pending.current)onClose();}}>
-  <header><div><h2>{mode==='remove'?'Remover tamanho':size?`Tamanho ${size}`:'Adicionar tamanho'}</h2><p>{color||'Cor não informada'} · Ref. {product.reference}</p></div><button aria-label="Fechar" disabled={busy} onClick={onClose}>×</button></header>
+ return createPortal(<dialog ref={dialog} className={`photo-editor variation-dialog ${mode==='remove'?'variation-danger':''}`} role={mode==='remove'?'alertdialog':'dialog'} aria-describedby={mode==='remove'?'variation-delete-warning':undefined} aria-label={mode==='remove'?`Excluir tamanho ${size}`:size?`Tamanho ${size}`:'Adicionar tamanho'} onCancel={e=>{e.preventDefault();if(!pending.current)onClose();}}>
+  <header><div><h2>{mode==='remove'?<><TriangleAlert size={25}/> Excluir tamanho {size}?</>:size?`Tamanho ${size}`:'Adicionar tamanho'}</h2><p>{color||'Cor não informada'} · Ref. {product.reference}</p></div><button aria-label="Fechar" disabled={busy} onClick={onClose}>×</button></header>
   <div className="photo-editor-body">
-   {mode==='actions'?<><p>Estoque: {stock} unidades</p><button onClick={()=>setMode('edit')}>Editar estoque</button><button onClick={()=>setMode('remove')}>Remover tamanho</button></>:mode==='remove'?<><p>Remover tamanho <strong>{size}</strong> da cor <strong>{color||'Cor não informada'}</strong>?</p><p>Essa alteração ficará registrada na revisão do produto.</p></>:<form id="variation-form" onSubmit={e=>{e.preventDefault();void save(size?'updated':'added');}}><label>Tamanho<input autoFocus disabled={busy||!!size} maxLength={7} value={draft} onChange={e=>setDraft(e.target.value)} placeholder="Ex.: 27/28" required/></label><label>{size?'Estoque':'Quantidade inicial'}<input autoFocus={!!size} disabled={busy} type="number" min="0" max="2147483647" step="1" value={stock} onChange={e=>setStock(e.target.value)} required/></label></form>}
+   {mode==='actions'?<><p><strong>{product.name}</strong><br/>Estoque: {stock} unidades</p><div className="variation-action-list"><button onClick={()=>setMode('edit')}><Package size={18}/> Editar quantidade</button>{onRename&&<button onClick={onRename}><Pencil size={18}/> Editar numeração</button>}<button className="variation-remove-option" onClick={()=>setMode('remove')}><Trash2 size={18}/> Excluir tamanho</button></div></>:mode==='remove'?<><div className="variation-delete-warning" id="variation-delete-warning"><strong>Esta ação não pode ser desfeita.</strong><p>Será excluído o tamanho <strong>{size}</strong> da cor <strong>{color||'Cor não informada'}</strong> deste produto:</p><p><strong>{product.name}</strong></p><p>As <strong>{stock} unidades</strong> desta variação serão retiradas do estoque total. Confira os dados antes de confirmar.</p></div></>:<form id="variation-form" onSubmit={e=>{e.preventDefault();void save(size?'updated':'added');}}><label>Tamanho<input autoFocus disabled={busy||!!size} maxLength={7} value={draft} onChange={e=>setDraft(e.target.value)} placeholder="Ex.: 27/28" required/></label><label>{size?'Quantidade':'Quantidade inicial'}<input autoFocus={!!size} disabled={busy} type="number" min="0" max="2147483647" step="1" value={stock} onChange={e=>setStock(e.target.value)} required/></label></form>}
    {error&&<p role="alert" className="error">{error}</p>}{busy&&<p role="status">Salvando alteração…</p>}
-  </div><footer><button disabled={busy} onClick={onClose}>Cancelar</button>{mode==='remove'?<button disabled={busy} onClick={()=>void save('removed')}>Remover</button>:mode==='edit'?<button disabled={busy} type="submit" form="variation-form">{size?'Salvar estoque':'Adicionar'}</button>:null}</footer>
+  </div><footer><button ref={cancel} disabled={busy} onClick={onClose}>Cancelar</button>{mode==='remove'?<button className="variation-confirm-delete" disabled={busy} onClick={()=>void save('removed')}><Trash2 size={18}/>{busy?'Excluindo…':'Excluir definitivamente'}</button>:mode==='edit'?<button disabled={busy} type="submit" form="variation-form">{size?'Salvar quantidade':'Adicionar'}</button>:null}</footer>
  </dialog>,document.body);
 }
