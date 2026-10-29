@@ -1,10 +1,10 @@
 ## Acesso direto pela grade
 
-O botão **+** está sempre presente ao lado do título dos tamanhos, inclusive quando a cor não tem nenhuma variação. Sem conexão, permanece visível e desabilitado. Clicar em um tamanho abre **Editar quantidade**, **Editar numeração** e **Excluir tamanho**. A confirmação de exclusão usa role alertdialog, fundo branco, ícone e botão vermelhos, identificação de tamanho/cor/produto e quantidade removida. Cancelar recebe foco e não modifica os dados; excluir exige clique em **Excluir**. Não há botão de desfazer. O histórico de revisão é preservado.
+O botão **+** está sempre presente ao lado do título dos tamanhos, inclusive quando a cor não tem nenhuma variação. Sem conexão, permanece visível e desabilitado. Clicar em um tamanho abre **Editar quantidade** e **Excluir tamanho**. A confirmação de exclusão usa role alertdialog, fundo branco, ícone e botão vermelhos, identificação de tamanho/cor/produto e quantidade removida. Cancelar recebe foco e não modifica os dados; excluir exige clique em **Excluir**. Não há botão de desfazer. O histórico de revisão é preservado.
 
 # Tamanhos editáveis
 
-A opção **Editar numeração**, acessível ao clicar em um tamanho, abre as variações da cor selecionada, identificadas pelo estoque e SKU. Os campos salvam ao pressionar Enter ou perder foco. Concluir finaliza o campo em edição antes de fechar; entradas inválidas impedem o fechamento até serem corrigidas.
+A edição da numeração foi retirada do menu de tamanhos. Os ajustes de numeração já gravados continuam sendo carregados do Supabase. Para incluir outra numeração, use o botão +.
 
 A confirmação aparece no topo por cinco segundos. Em erro de rede ou conflito, o valor anteriormente salvo permanece no catálogo e o editor mostra o erro. Um tamanho já utilizado por outra variação da mesma cor é recusado. Tamanhos combinados não são divididos nem corrigidos automaticamente. A correção de 25/36 só ocorre por ação manual.
 
